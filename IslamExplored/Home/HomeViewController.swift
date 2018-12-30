@@ -141,7 +141,7 @@ class HomeViewController: UIViewController , onStoryItemClickedProtocol{
                         if postId == post.id{
                             let exists = containPostId(postId: postId)
                             if exists != true {
-                                savedForLaterArray.append(post)
+                                savedForLaterArray.insert(post, at: 0)
                             }
                         }
                     }
@@ -265,6 +265,8 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
                 postVC?.post = selectedPost
                 postVC?.index = indexPath.row
         }
+        
+        
         
 
     }

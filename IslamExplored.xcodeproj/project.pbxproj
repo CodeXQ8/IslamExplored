@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		580DC00B67E4FC9F67E94E27 /* Pods_IslamExplored.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A2C5AF68946AEE624197F6 /* Pods_IslamExplored.framework */; };
+		BE03F1C021D965CD00B8648A /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03F1BF21D965CD00B8648A /* SearchVC.swift */; };
 		BE71AF2121D71C57009CEA18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71AF2021D71C57009CEA18 /* AppDelegate.swift */; };
 		BE71AF2621D71C57009CEA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE71AF2421D71C57009CEA18 /* Main.storyboard */; };
 		BE71AF2821D71C5A009CEA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE71AF2721D71C5A009CEA18 /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 /* Begin PBXFileReference section */
 		35290BC8F6D502110108E094 /* Pods-IslamExplored.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamExplored.release.xcconfig"; path = "Pods/Target Support Files/Pods-IslamExplored/Pods-IslamExplored.release.xcconfig"; sourceTree = "<group>"; };
 		B067A98D89E5DE2D6D144D44 /* Pods-IslamExplored.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamExplored.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IslamExplored/Pods-IslamExplored.debug.xcconfig"; sourceTree = "<group>"; };
+		BE03F1BF21D965CD00B8648A /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		BE71AF1D21D71C57009CEA18 /* IslamExplored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslamExplored.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE71AF2021D71C57009CEA18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE71AF2521D71C57009CEA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				BE71AF4421D71D6A009CEA18 /* HomeViewModel.swift */,
 				BE71AFA521D753C5009CEA18 /* PostVC.swift */,
 				BEF8716021D88C100035AEB5 /* BookmarkViewController.swift */,
+				BE03F1BF21D965CD00B8648A /* SearchVC.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -509,6 +512,7 @@
 				BE71AF5C21D720AF009CEA18 /* suggestedTableViewCell.swift in Sources */,
 				BE71AF7F21D7258A009CEA18 /* SWRevealViewController.m in Sources */,
 				BE71AF6E21D722A8009CEA18 /* WideStoryViewCell.swift in Sources */,
+				BE03F1C021D965CD00B8648A /* SearchVC.swift in Sources */,
 				BE71AF5821D720AF009CEA18 /* SearchItemViewCell.swift in Sources */,
 				BE71AF2121D71C57009CEA18 /* AppDelegate.swift in Sources */,
 				BEF8716121D88C100035AEB5 /* BookmarkViewController.swift in Sources */,

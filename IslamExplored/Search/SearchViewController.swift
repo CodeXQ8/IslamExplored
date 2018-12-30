@@ -10,6 +10,8 @@ import UIKit
 
 class SearchViewController: UIViewController {
     
+    var posts : [Post]?
+    
     var sampleData : [String] = ["Some random data", "another random data", "new random data", "Some other random data", "again random data"]
      var suggestedSearchData : [String] = ["Android", "Android app development", "Architecture", "Art", "Creativity", "Design", "Economics", "Entrepreneuship", "Finance", "Future", "Gamming", "Google"]
 
@@ -54,7 +56,7 @@ class SearchViewController: UIViewController {
     }
     
     func setUpSearchHistory(){
-         searchHistoryHeader = (Bundle.main.loadNibNamed("HeaderView", owner: self, options: nil)![0] as? HeaderView)
+        searchHistoryHeader = (Bundle.main.loadNibNamed("HeaderView", owner: self, options: nil)![0] as? HeaderView)
         searchHistoryHeader?.delegate = self
         tableView.tableHeaderView = searchHistoryHeader
     }
