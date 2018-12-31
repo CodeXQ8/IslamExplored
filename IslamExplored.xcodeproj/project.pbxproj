@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		580DC00B67E4FC9F67E94E27 /* Pods_IslamExplored.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A2C5AF68946AEE624197F6 /* Pods_IslamExplored.framework */; };
 		BE03F1C021D965CD00B8648A /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03F1BF21D965CD00B8648A /* SearchVC.swift */; };
+		BE4E352D21DA067E009A55EA /* Islam Explored.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4E352C21DA067E009A55EA /* Islam Explored.png */; };
 		BE71AF2121D71C57009CEA18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71AF2021D71C57009CEA18 /* AppDelegate.swift */; };
 		BE71AF2621D71C57009CEA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE71AF2421D71C57009CEA18 /* Main.storyboard */; };
 		BE71AF2821D71C5A009CEA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE71AF2721D71C5A009CEA18 /* Assets.xcassets */; };
@@ -55,6 +56,13 @@
 		BE71AFA321D74AFD009CEA18 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE71AF9121D74AFC009CEA18 /* OpenSans-SemiBold.ttf */; };
 		BE71AFA421D74AFD009CEA18 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE71AF9221D74AFC009CEA18 /* OpenSans-SemiBoldItalic.ttf */; };
 		BE71AFA621D753C5009CEA18 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71AFA521D753C5009CEA18 /* PostVC.swift */; };
+		BE92FD4221D9A40600BBDE73 /* BookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92FD4121D9A40600BBDE73 /* BookVC.swift */; };
+		BE92FD4621D9A4FC00BBDE73 /* BookViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92FD4421D9A4FC00BBDE73 /* BookViewCell.swift */; };
+		BE92FD4721D9A4FC00BBDE73 /* BookViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE92FD4521D9A4FC00BBDE73 /* BookViewCell.xib */; };
+		BE92FD4C21D9A5A900BBDE73 /* The Silver Chair.epub in Resources */ = {isa = PBXBuildFile; fileRef = BE92FD4A21D9A5A900BBDE73 /* The Silver Chair.epub */; };
+		BE92FD4E21D9A5B000BBDE73 /* Epub.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92FD4D21D9A5B000BBDE73 /* Epub.swift */; };
+		BE92FD5021D9AFA400BBDE73 /* ExampleFolioReaderContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92FD4F21D9AFA400BBDE73 /* ExampleFolioReaderContainer.swift */; };
+		BE92FD5221D9B9F000BBDE73 /* hill think and grow rich.epub in Resources */ = {isa = PBXBuildFile; fileRef = BE92FD5121D9B26A00BBDE73 /* hill think and grow rich.epub */; };
 		BEF8715A21D879BC0035AEB5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEF8715821D879BB0035AEB5 /* 3.jpg */; };
 		BEF8715B21D879BC0035AEB5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEF8715921D879BB0035AEB5 /* 2.jpg */; };
 		BEF8715D21D879C40035AEB5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEF8715C21D879C40035AEB5 /* 1.jpg */; };
@@ -66,6 +74,7 @@
 		35290BC8F6D502110108E094 /* Pods-IslamExplored.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamExplored.release.xcconfig"; path = "Pods/Target Support Files/Pods-IslamExplored/Pods-IslamExplored.release.xcconfig"; sourceTree = "<group>"; };
 		B067A98D89E5DE2D6D144D44 /* Pods-IslamExplored.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamExplored.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IslamExplored/Pods-IslamExplored.debug.xcconfig"; sourceTree = "<group>"; };
 		BE03F1BF21D965CD00B8648A /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		BE4E352C21DA067E009A55EA /* Islam Explored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Islam Explored.png"; sourceTree = "<group>"; };
 		BE71AF1D21D71C57009CEA18 /* IslamExplored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslamExplored.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE71AF2021D71C57009CEA18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE71AF2521D71C57009CEA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -116,6 +125,13 @@
 		BE71AF9121D74AFC009CEA18 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		BE71AF9221D74AFC009CEA18 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		BE71AFA521D753C5009CEA18 /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
+		BE92FD4121D9A40600BBDE73 /* BookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVC.swift; sourceTree = "<group>"; };
+		BE92FD4421D9A4FC00BBDE73 /* BookViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewCell.swift; sourceTree = "<group>"; };
+		BE92FD4521D9A4FC00BBDE73 /* BookViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookViewCell.xib; sourceTree = "<group>"; };
+		BE92FD4A21D9A5A900BBDE73 /* The Silver Chair.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Silver Chair.epub"; sourceTree = "<group>"; };
+		BE92FD4D21D9A5B000BBDE73 /* Epub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Epub.swift; sourceTree = "<group>"; };
+		BE92FD4F21D9AFA400BBDE73 /* ExampleFolioReaderContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleFolioReaderContainer.swift; sourceTree = "<group>"; };
+		BE92FD5121D9B26A00BBDE73 /* hill think and grow rich.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hill think and grow rich.epub"; sourceTree = "<group>"; };
 		BEF8715821D879BB0035AEB5 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		BEF8715921D879BB0035AEB5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		BEF8715C21D879C40035AEB5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
@@ -174,6 +190,7 @@
 		BE71AF1F21D71C57009CEA18 /* IslamExplored */ = {
 			isa = PBXGroup;
 			children = (
+				BE92FD4821D9A5A900BBDE73 /* Sample eBooks */,
 				BEF8715721D8799F0035AEB5 /* Images */,
 				BE71AF8021D74AFC009CEA18 /* Font */,
 				BE71AF7521D7258A009CEA18 /* Supporting Files */,
@@ -198,6 +215,9 @@
 				BE71AFA521D753C5009CEA18 /* PostVC.swift */,
 				BEF8716021D88C100035AEB5 /* BookmarkViewController.swift */,
 				BE03F1BF21D965CD00B8648A /* SearchVC.swift */,
+				BE92FD4121D9A40600BBDE73 /* BookVC.swift */,
+				BE92FD4D21D9A5B000BBDE73 /* Epub.swift */,
+				BE92FD4F21D9AFA400BBDE73 /* ExampleFolioReaderContainer.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -254,6 +274,7 @@
 		BE71AF6021D722A7009CEA18 /* CommonViews */ = {
 			isa = PBXGroup;
 			children = (
+				BE92FD4321D9A4E100BBDE73 /* BookCell */,
 				BE71AF6121D722A7009CEA18 /* CompactStoryCell */,
 				BE71AF6421D722A7009CEA18 /* SwipableCell */,
 				BE71AF6721D722A8009CEA18 /* WideStoryCell */,
@@ -334,9 +355,28 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
+		BE92FD4321D9A4E100BBDE73 /* BookCell */ = {
+			isa = PBXGroup;
+			children = (
+				BE92FD4421D9A4FC00BBDE73 /* BookViewCell.swift */,
+				BE92FD4521D9A4FC00BBDE73 /* BookViewCell.xib */,
+			);
+			path = BookCell;
+			sourceTree = "<group>";
+		};
+		BE92FD4821D9A5A900BBDE73 /* Sample eBooks */ = {
+			isa = PBXGroup;
+			children = (
+				BE92FD5121D9B26A00BBDE73 /* hill think and grow rich.epub */,
+				BE92FD4A21D9A5A900BBDE73 /* The Silver Chair.epub */,
+			);
+			path = "Sample eBooks";
+			sourceTree = "<group>";
+		};
 		BEF8715721D8799F0035AEB5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BE4E352C21DA067E009A55EA /* Islam Explored.png */,
 				BEF8715E21D879CA0035AEB5 /* 0.jpg */,
 				BEF8715C21D879C40035AEB5 /* 1.jpg */,
 				BEF8715921D879BB0035AEB5 /* 2.jpg */,
@@ -405,22 +445,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE92FD5221D9B9F000BBDE73 /* hill think and grow rich.epub in Resources */,
 				BEF8715B21D879BC0035AEB5 /* 2.jpg in Resources */,
 				BE71AFA021D74AFD009CEA18 /* OpenSans-Light.ttf in Resources */,
 				BE71AF9321D74AFD009CEA18 /* Adamina-Regular.ttf in Resources */,
 				BE71AF6F21D722A8009CEA18 /* WideStoryViewCell.xib in Resources */,
 				BE71AFA321D74AFD009CEA18 /* OpenSans-SemiBold.ttf in Resources */,
+				BE4E352D21DA067E009A55EA /* Islam Explored.png in Resources */,
 				BEF8715F21D879CA0035AEB5 /* 0.jpg in Resources */,
 				BE71AF7E21D7258A009CEA18 /* style.css in Resources */,
 				BE71AF9D21D74AFD009CEA18 /* OpenSans-ExtraBold.ttf in Resources */,
 				BE71AF2B21D71C5A009CEA18 /* LaunchScreen.storyboard in Resources */,
 				BE71AF9921D74AFD009CEA18 /* AndadaSC-BoldItalic.otf in Resources */,
+				BE92FD4C21D9A5A900BBDE73 /* The Silver Chair.epub in Resources */,
 				BEF8715D21D879C40035AEB5 /* 1.jpg in Resources */,
 				BE71AF9621D74AFD009CEA18 /* Andada-Italic.otf in Resources */,
 				BE71AF9E21D74AFD009CEA18 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				BE71AF9F21D74AFD009CEA18 /* OpenSans-Italic.ttf in Resources */,
 				BE71AFA221D74AFD009CEA18 /* OpenSans-Regular.ttf in Resources */,
 				BE71AF2821D71C5A009CEA18 /* Assets.xcassets in Resources */,
+				BE92FD4721D9A4FC00BBDE73 /* BookViewCell.xib in Resources */,
 				BE71AF9B21D74AFD009CEA18 /* AndadaSC-Regular.otf in Resources */,
 				BE71AF9421D74AFD009CEA18 /* Andada-Bold.otf in Resources */,
 				BEF8715A21D879BC0035AEB5 /* 3.jpg in Resources */,
@@ -470,23 +514,41 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-IslamExplored/Pods-IslamExplored-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
 				"${BUILT_PRODUCTS_DIR}/EmptyDataSet-Swift/EmptyDataSet_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/FolioReaderKit/FolioReaderKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FontBlaster/FontBlaster.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQWebViewController/JSQWebViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MenuItemKit/MenuItemKit.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/ZFDragableModalTransition/ZFDragableModalTransition.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EmptyDataSet_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FolioReaderKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontBlaster.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQWebViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MenuItemKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFDragableModalTransition.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -503,16 +565,20 @@
 				BE71AF5A21D720AF009CEA18 /* SearchViewController.swift in Sources */,
 				BE71AF7421D7257D009CEA18 /* PostRequest.swift in Sources */,
 				BE71AF7D21D7258A009CEA18 /* String+Convenience.swift in Sources */,
+				BE92FD5021D9AFA400BBDE73 /* ExampleFolioReaderContainer.swift in Sources */,
 				BE71AF5E21D720AF009CEA18 /* SuggestedHeaderView.swift in Sources */,
 				BE71AF6A21D722A8009CEA18 /* CompactStoryCollectionViewCell.swift in Sources */,
+				BE92FD4621D9A4FC00BBDE73 /* BookViewCell.swift in Sources */,
 				BE71AF6C21D722A8009CEA18 /* SwipableTableViewCell.swift in Sources */,
 				BE71AFA621D753C5009CEA18 /* PostVC.swift in Sources */,
 				BE71AF7321D7257D009CEA18 /* Post.swift in Sources */,
 				BE71AF4621D71D6A009CEA18 /* HomeViewModel.swift in Sources */,
 				BE71AF5C21D720AF009CEA18 /* suggestedTableViewCell.swift in Sources */,
 				BE71AF7F21D7258A009CEA18 /* SWRevealViewController.m in Sources */,
+				BE92FD4E21D9A5B000BBDE73 /* Epub.swift in Sources */,
 				BE71AF6E21D722A8009CEA18 /* WideStoryViewCell.swift in Sources */,
 				BE03F1C021D965CD00B8648A /* SearchVC.swift in Sources */,
+				BE92FD4221D9A40600BBDE73 /* BookVC.swift in Sources */,
 				BE71AF5821D720AF009CEA18 /* SearchItemViewCell.swift in Sources */,
 				BE71AF2121D71C57009CEA18 /* AppDelegate.swift in Sources */,
 				BEF8716121D88C100035AEB5 /* BookmarkViewController.swift in Sources */,

@@ -71,9 +71,9 @@ class PostVC: UIViewController, WKNavigationDelegate {
 
     func updateSaveImage(){
         if let index = savedPost.index(of: postId) {
-            savedBtn.image = UIImage(named: "bookmark-Fill")
+            savedBtn.image = UIImage(named: "iconfinder_bookmark_1608585")
         } else {
-            savedBtn.image = UIImage(named: "bookmark")
+            savedBtn.image = UIImage(named: "iconfinder_bookmark-o_1608584")
         }
         
     }
@@ -143,12 +143,12 @@ class PostVC: UIViewController, WKNavigationDelegate {
             print(savedPost)
             print(savedPost)
             storeData(savedPost: savedPost)
-            savedBtn.image = UIImage(named: "bookmark")
+            savedBtn.image = UIImage(named: "iconfinder_bookmark-o_1608584")
         } else {
             savedPost.insert(postId, at: 0)
             print(savedPost)
             storeData(savedPost: savedPost)
-            savedBtn.image = UIImage(named: "bookmark-filled")
+            savedBtn.image = UIImage(named: "iconfinder_bookmark_1608585")
         }
         
     }
