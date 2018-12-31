@@ -9,14 +9,6 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Andada-Bold.otf">
-            <string>Andada-Bold</string>
-        </array>
-        <array key="Andada-Regular.otf">
-            <string>Andada-Regular</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Islam Explored-->
         <scene sceneID="yaY-JZ-SFy">
@@ -61,10 +53,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Islam Explored" id="pfr-sM-pGV">
                         <barButtonItem key="backBarButtonItem" title=" " id="xkh-WY-Yez"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="ufs-Pk-1ZK">
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="search" id="11U-1j-eND">
                             <connections>
-                                <action selector="searchButtonClicked:" destination="YUp-Pg-4zk" id="PCy-41-Qld"/>
+                                <segue destination="vUD-qV-EQ9" kind="show" id="OFX-bq-QQZ"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -85,7 +76,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" red="0.19215686269999999" green="0.58431372550000005" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="Ik7-Uv-bkf" kind="relationship" relationship="viewControllers" id="AFl-KI-SUW"/>
@@ -147,7 +138,7 @@
                                     <barButtonItem width="334" style="plain" systemItem="fixedSpace" id="xNd-85-9XJ"/>
                                     <barButtonItem id="5wK-Zw-2ac">
                                         <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6F6-5o-I2B">
-                                            <rect key="frame" x="326" y="12" width="30" height="30"/>
+                                            <rect key="frame" x="330" y="12" width="30" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal" image="share-rounded"/>
@@ -190,7 +181,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Uy-Wj-dNk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3471" y="437"/>
+            <point key="canvasLocation" x="4633" y="457"/>
         </scene>
         <!--Bookmarks-->
         <scene sceneID="rTS-ju-2E7">
@@ -249,7 +240,7 @@
         <scene sceneID="tBD-3r-oGD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="T3B-gT-zpx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" image="bookmark-Fill" id="lWq-4f-hnG">
+                    <tabBarItem key="tabBarItem" image="bookmark" id="lWq-4f-hnG">
                         <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                         <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
@@ -275,65 +266,41 @@
         <!--SearchVC-->
         <scene sceneID="I9V-Sx-0vW">
             <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="vUD-qV-EQ9" customClass="SearchVC" customModule="Islam_Explored" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="vUD-qV-EQ9" customClass="SearchVC" customModule="IslamExplored" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="THk-IJ-YM7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EIR-Hx-azV">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="95M-RH-pmv">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <view key="tableFooterView" contentMode="scaleToFill" id="ldR-2c-Vsd" userLabel="footer">
-                                    <rect key="frame" x="0.0" y="128" width="414" height="44"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="OPf-uI-R59" userLabel="footer">
+                                    <rect key="frame" x="0.0" y="72" width="414" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CellPost" rowHeight="100" id="JFw-Gn-T7O" customClass="CellPost" customModule="Islam_Explored" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="100"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="iiQ-xe-vZ1">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JFw-Gn-T7O" id="206-Ku-SxF">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="99.666666666666671"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iiQ-xe-vZ1" id="8Yb-rA-jii">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAl-Bc-8Zf">
-                                                    <rect key="frame" x="15" y="10" width="384" height="46"/>
-                                                    <fontDescription key="fontDescription" name="Andada-Bold" family="Andada" pointSize="19"/>
-                                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8e-T3-edX">
-                                                    <rect key="frame" x="15" y="60.999999999999993" width="384" height="18.666666666666664"/>
-                                                    <fontDescription key="fontDescription" name="Andada-Regular" family="Andada" pointSize="14"/>
-                                                    <color key="textColor" red="0.47843137250000001" green="0.47843137250000001" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="h8e-T3-edX" firstAttribute="leading" secondItem="206-Ku-SxF" secondAttribute="leading" constant="15" id="9ad-pA-fek"/>
-                                                <constraint firstItem="h8e-T3-edX" firstAttribute="top" secondItem="vAl-Bc-8Zf" secondAttribute="bottom" constant="5" id="K0J-EM-dgB"/>
-                                                <constraint firstAttribute="trailing" secondItem="vAl-Bc-8Zf" secondAttribute="trailing" constant="15" id="LFr-W5-UHU"/>
-                                                <constraint firstItem="vAl-Bc-8Zf" firstAttribute="leading" secondItem="206-Ku-SxF" secondAttribute="leading" constant="15" id="Lwb-AS-hGP"/>
-                                                <constraint firstAttribute="bottom" secondItem="h8e-T3-edX" secondAttribute="bottom" constant="20" id="P4S-9l-eV7"/>
-                                                <constraint firstAttribute="trailing" secondItem="h8e-T3-edX" secondAttribute="trailing" constant="15" id="gAy-2U-1I1"/>
-                                                <constraint firstItem="vAl-Bc-8Zf" firstAttribute="top" secondItem="206-Ku-SxF" secondAttribute="top" constant="10" id="yaG-f1-6bB"/>
-                                            </constraints>
                                         </tableViewCellContentView>
-                                        <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
-                                        <connections>
-                                            <outlet property="contentLbl" destination="h8e-T3-edX" id="ONJ-zr-TYY"/>
-                                            <outlet property="titleLbl" destination="vAl-Bc-8Zf" id="33d-Hy-m26"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="YUp-Pg-4zk" id="lmN-Ho-7et"/>
+                                    <outlet property="delegate" destination="YUp-Pg-4zk" id="8qj-ao-fnZ"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="EIR-Hx-azV" firstAttribute="top" secondItem="XmO-Ow-tDt" secondAttribute="top" id="9aa-fY-WAf"/>
-                            <constraint firstItem="EIR-Hx-azV" firstAttribute="leading" secondItem="XmO-Ow-tDt" secondAttribute="leading" id="UlG-W0-ibr"/>
-                            <constraint firstItem="XmO-Ow-tDt" firstAttribute="trailing" secondItem="EIR-Hx-azV" secondAttribute="trailing" id="lYY-jn-1k9"/>
-                            <constraint firstItem="XmO-Ow-tDt" firstAttribute="bottom" secondItem="EIR-Hx-azV" secondAttribute="bottom" id="uk2-bT-tH7"/>
+                            <constraint firstItem="95M-RH-pmv" firstAttribute="trailing" secondItem="XmO-Ow-tDt" secondAttribute="trailing" id="Kki-uz-B8P"/>
+                            <constraint firstItem="XmO-Ow-tDt" firstAttribute="bottom" secondItem="95M-RH-pmv" secondAttribute="bottom" id="PLC-uB-P8K"/>
+                            <constraint firstItem="95M-RH-pmv" firstAttribute="top" secondItem="XmO-Ow-tDt" secondAttribute="top" id="eX9-ge-Ujr"/>
+                            <constraint firstItem="95M-RH-pmv" firstAttribute="leading" secondItem="XmO-Ow-tDt" secondAttribute="leading" id="z9r-VL-OOt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XmO-Ow-tDt"/>
                     </view>
@@ -341,17 +308,17 @@
                         <barButtonItem key="backBarButtonItem" title=" " id="ous-eR-w2J"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="tableView" destination="EIR-Hx-azV" id="f7X-Px-nrM"/>
+                        <outlet property="tableView" destination="95M-RH-pmv" id="DsQ-lP-8gz"/>
+                        <segue destination="thk-xk-weR" kind="show" identifier="showDetail2" id="brw-lP-QCA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HDj-F2-sfk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3472" y="-288"/>
+            <point key="canvasLocation" x="3261" y="-121"/>
         </scene>
     </scenes>
     <resources>
-        <image name="bookmark" width="32" height="32"/>
-        <image name="bookmark-Fill" width="32" height="32"/>
+        <image name="bookmark" width="25" height="25"/>
         <image name="home" width="24" height="22"/>
         <image name="share-rounded" width="30" height="30"/>
     </resources>

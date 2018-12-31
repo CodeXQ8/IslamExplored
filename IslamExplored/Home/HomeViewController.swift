@@ -159,42 +159,18 @@ class HomeViewController: UIViewController , onStoryItemClickedProtocol{
     
     
     func buttonPressed(action: Action) {
-        switch action {
-        case .bookMark:
-            print("book mark was pressed")
-            //tableView.reloadData()  Reload data in a single row
-        case .menu:
-            print("menu was pressed")
-            showMenu()
-        }
+            share()
     }
     
     
     
-    func showMenu() {
-        let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
-        alert.addAction(UIAlertAction(title: "Show fewer stories like this", style: .default, handler: { (action) in
-            //do something
-        }))
-        alert.addAction(UIAlertAction(title: "Show fewer stories from Publisher", style: .default, handler: { (action) in
-            //do something
-        }))
-        
-        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-        self.present(alert, animated: true, completion: nil)
+    func share() {
+        let activityVC = UIActivityViewController(activityItems:[ "hello ","\n\(link)"], applicationActivities: nil)
+        activityVC.popoverPresentationController?.sourceView = view
+        present(activityVC,animated: true, completion: nil)
     }
     
-    @IBAction func searchButtonClicked(_ sender: UIBarButtonItem) {
-        let searchVC = SearchViewController()
-        let transition = CATransition()
-        transition.duration = 0.3
-        transition.type = CATransitionType.moveIn
-        transition.subtype = CATransitionSubtype.fromRight
-        transition.timingFunction = CAMediaTimingFunction(name:CAMediaTimingFunctionName.easeOut)
-        view.window!.layer.add(transition, forKey: kCATransition)
-    
-        present(searchVC, animated: false, completion: nil)
-    }
+   
     
     
     /*
@@ -266,7 +242,8 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
                 postVC?.index = indexPath.row
         }
         
-        
+        let SearchVC = segue.destination as? SearchVC
+        SearchVC?.posts =  postsArticles + postsFqa
         
 
     }

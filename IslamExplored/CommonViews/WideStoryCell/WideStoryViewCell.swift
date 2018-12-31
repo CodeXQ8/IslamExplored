@@ -22,18 +22,18 @@ class WideStoryViewCell: UITableViewCell {
     var delegate : onStoryItemClickedProtocol? = nil
     @IBOutlet weak var actionMenuWidthConstraint: NSLayoutConstraint!
     
-    @IBOutlet weak var bookmarkButtonTrailingContraint: NSLayoutConstraint!
+  //  @IBOutlet weak var bookmarkButtonTrailingContraint: NSLayoutConstraint!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    @IBOutlet weak var buttonBookmark: UIButton!
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+//    @IBOutlet weak var buttonBookmark: UIButton!
+//    override func setSelected(_ selected: Bool, animated: Bool) {
+//        super.setSelected(selected, animated: animated)
+//
+//        // Configure the view for the selected state
+//    }
     
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var contentLbl: UILabel!
@@ -53,9 +53,9 @@ class WideStoryViewCell: UITableViewCell {
         }
     }
     
-    @IBAction func bookMarkPressed(_ sender: UIButton) {
-        if let deleg = delegate {
-            deleg.buttonPressed(action: .bookMark)
-        }
-    }
+//    @IBAction func bookMarkPressed(_ sender: UIButton) {
+//        if let deleg = delegate {
+//            deleg.buttonPressed(action: .bookMark)
+//        }
+//    }
 }

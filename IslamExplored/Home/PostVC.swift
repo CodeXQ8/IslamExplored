@@ -147,7 +147,7 @@ class PostVC: UIViewController, WKNavigationDelegate {
             savedPost.insert(postId, at: 0)
             print(savedPost)
             storeData(savedPost: savedPost)
-            savedBtn.image = UIImage(named: "bookmark-Fill")
+            savedBtn.image = UIImage(named: "bookmark-filled")
         }
         
     }

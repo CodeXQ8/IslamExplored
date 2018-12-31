@@ -20,68 +20,38 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="wideCell" rowHeight="110" id="KGk-i7-Jjw" customClass="WideStoryViewCell" customModule="IslamExplored" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="wideCell" rowHeight="75" id="KGk-i7-Jjw" customClass="WideStoryViewCell" customModule="IslamExplored" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="109.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BmH-uR-CjV" userLabel="MainContainer">
-                        <rect key="frame" x="10" y="0.0" width="300" height="109.5"/>
+                        <rect key="frame" x="10" y="0.0" width="300" height="74.5"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yiw-UI-9aZ">
-                                <rect key="frame" x="226" y="77.5" width="13" height="17"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="13" id="U7v-Tu-dGA"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="13" id="aWz-d2-fzx"/>
-                                    <constraint firstAttribute="height" constant="17" id="aaw-Gk-ifx"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="17" id="tia-8F-SUV"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="bookmark"/>
-                                <connections>
-                                    <action selector="bookMarkPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xeg-uK-m7s"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" ambiguous="YES" text="label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fqf-Se-bCM">
-                                <rect key="frame" x="10" y="15" width="280" height="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fqf-Se-bCM">
+                                <rect key="frame" x="10" y="15" width="280" height="24"/>
                                 <fontDescription key="fontDescription" name="Andada-Bold" family="Andada" pointSize="18"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQe-gS-18b">
-                                <rect key="frame" x="10" y="43" width="280" height="16.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQe-gS-18b">
+                                <rect key="frame" x="10" y="44" width="280" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Andada-Regular" family="Andada" pointSize="14"/>
                                 <color key="textColor" red="0.47843137250000001" green="0.47843137250000001" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6v-6w-fG4">
-                                <rect key="frame" x="263" y="74.5" width="26" height="22"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="26" id="4Zx-Tr-j8C"/>
-                                    <constraint firstAttribute="height" constant="22" id="Yfc-bY-Cc0"/>
-                                    <constraint firstAttribute="width" constant="26" id="ZzY-Ol-Gae"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="u1I-hs-Ovx"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="menu-1"/>
-                                <connections>
-                                    <action selector="menuPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="srA-VV-2Ab"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Fqf-Se-bCM" firstAttribute="leading" secondItem="BmH-uR-CjV" secondAttribute="leading" constant="10" id="4N4-7d-mES"/>
                             <constraint firstAttribute="trailing" secondItem="Fqf-Se-bCM" secondAttribute="trailing" constant="10" id="4Wv-Rc-BF1"/>
-                            <constraint firstItem="H6v-6w-fG4" firstAttribute="leading" secondItem="yiw-UI-9aZ" secondAttribute="trailing" constant="24" id="DkZ-83-fKM"/>
-                            <constraint firstAttribute="trailing" secondItem="H6v-6w-fG4" secondAttribute="trailing" constant="11" id="EaI-ML-8BW"/>
                             <constraint firstItem="zQe-gS-18b" firstAttribute="leading" secondItem="BmH-uR-CjV" secondAttribute="leading" constant="10" id="Mfk-bp-pjY"/>
                             <constraint firstItem="zQe-gS-18b" firstAttribute="top" secondItem="Fqf-Se-bCM" secondAttribute="bottom" constant="5" id="S21-8X-qav"/>
                             <constraint firstItem="Fqf-Se-bCM" firstAttribute="top" secondItem="BmH-uR-CjV" secondAttribute="top" constant="15" id="bKS-v7-UT2"/>
-                            <constraint firstItem="H6v-6w-fG4" firstAttribute="top" secondItem="zQe-gS-18b" secondAttribute="bottom" constant="15" id="daS-uj-Cb0"/>
                             <constraint firstAttribute="trailing" secondItem="zQe-gS-18b" secondAttribute="trailing" constant="10" id="dig-iR-SEj"/>
-                            <constraint firstAttribute="bottom" secondItem="yiw-UI-9aZ" secondAttribute="bottom" constant="15" id="rs8-xu-dTc"/>
-                            <constraint firstAttribute="bottom" secondItem="H6v-6w-fG4" secondAttribute="bottom" constant="13" id="tTg-rm-xNb"/>
+                            <constraint firstAttribute="bottom" secondItem="zQe-gS-18b" secondAttribute="bottom" constant="12" id="eo3-pn-OrK"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -95,15 +65,10 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="buttonBookmark" destination="yiw-UI-9aZ" id="xeL-dV-UjY"/>
                 <outlet property="contentLbl" destination="zQe-gS-18b" id="QX3-ws-CSm"/>
                 <outlet property="titleLbl" destination="Fqf-Se-bCM" id="6Zc-Xk-Mmm"/>
             </connections>
-            <point key="canvasLocation" x="-339.19999999999999" y="43.178410794602705"/>
+            <point key="canvasLocation" x="-339.19999999999999" y="27.436281859070466"/>
         </tableViewCell>
     </objects>
-    <resources>
-        <image name="bookmark" width="24" height="24"/>
-        <image name="menu-1" width="24" height="6"/>
-    </resources>
 </document>
