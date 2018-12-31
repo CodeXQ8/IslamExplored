@@ -141,6 +141,7 @@ class PostVC: UIViewController, WKNavigationDelegate {
             savedPost.remove(at: index)
             savedForLaterArray.remove(at: index)
             print(savedPost)
+            print(savedPost)
             storeData(savedPost: savedPost)
             savedBtn.image = UIImage(named: "bookmark")
         } else {
