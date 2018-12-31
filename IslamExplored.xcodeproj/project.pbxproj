@@ -62,7 +62,7 @@
 		BE92FD4C21D9A5A900BBDE73 /* The Silver Chair.epub in Resources */ = {isa = PBXBuildFile; fileRef = BE92FD4A21D9A5A900BBDE73 /* The Silver Chair.epub */; };
 		BE92FD4E21D9A5B000BBDE73 /* Epub.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92FD4D21D9A5B000BBDE73 /* Epub.swift */; };
 		BE92FD5021D9AFA400BBDE73 /* ExampleFolioReaderContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92FD4F21D9AFA400BBDE73 /* ExampleFolioReaderContainer.swift */; };
-		BE92FD5221D9B9F000BBDE73 /* hill think and grow rich.epub in Resources */ = {isa = PBXBuildFile; fileRef = BE92FD5121D9B26A00BBDE73 /* hill think and grow rich.epub */; };
+		BEA2D1FD21DAB78300F9128F /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA2D1FC21DAB78300F9128F /* MoreVC.swift */; };
 		BEF8715A21D879BC0035AEB5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEF8715821D879BB0035AEB5 /* 3.jpg */; };
 		BEF8715B21D879BC0035AEB5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEF8715921D879BB0035AEB5 /* 2.jpg */; };
 		BEF8715D21D879C40035AEB5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEF8715C21D879C40035AEB5 /* 1.jpg */; };
@@ -131,7 +131,7 @@
 		BE92FD4A21D9A5A900BBDE73 /* The Silver Chair.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Silver Chair.epub"; sourceTree = "<group>"; };
 		BE92FD4D21D9A5B000BBDE73 /* Epub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Epub.swift; sourceTree = "<group>"; };
 		BE92FD4F21D9AFA400BBDE73 /* ExampleFolioReaderContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleFolioReaderContainer.swift; sourceTree = "<group>"; };
-		BE92FD5121D9B26A00BBDE73 /* hill think and grow rich.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hill think and grow rich.epub"; sourceTree = "<group>"; };
+		BEA2D1FC21DAB78300F9128F /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
 		BEF8715821D879BB0035AEB5 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		BEF8715921D879BB0035AEB5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		BEF8715C21D879C40035AEB5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
@@ -218,6 +218,7 @@
 				BE92FD4121D9A40600BBDE73 /* BookVC.swift */,
 				BE92FD4D21D9A5B000BBDE73 /* Epub.swift */,
 				BE92FD4F21D9AFA400BBDE73 /* ExampleFolioReaderContainer.swift */,
+				BEA2D1FC21DAB78300F9128F /* MoreVC.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -367,7 +368,6 @@
 		BE92FD4821D9A5A900BBDE73 /* Sample eBooks */ = {
 			isa = PBXGroup;
 			children = (
-				BE92FD5121D9B26A00BBDE73 /* hill think and grow rich.epub */,
 				BE92FD4A21D9A5A900BBDE73 /* The Silver Chair.epub */,
 			);
 			path = "Sample eBooks";
@@ -445,7 +445,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE92FD5221D9B9F000BBDE73 /* hill think and grow rich.epub in Resources */,
 				BEF8715B21D879BC0035AEB5 /* 2.jpg in Resources */,
 				BE71AFA021D74AFD009CEA18 /* OpenSans-Light.ttf in Resources */,
 				BE71AF9321D74AFD009CEA18 /* Adamina-Regular.ttf in Resources */,
@@ -569,6 +568,7 @@
 				BE71AF5E21D720AF009CEA18 /* SuggestedHeaderView.swift in Sources */,
 				BE71AF6A21D722A8009CEA18 /* CompactStoryCollectionViewCell.swift in Sources */,
 				BE92FD4621D9A4FC00BBDE73 /* BookViewCell.swift in Sources */,
+				BEA2D1FD21DAB78300F9128F /* MoreVC.swift in Sources */,
 				BE71AF6C21D722A8009CEA18 /* SwipableTableViewCell.swift in Sources */,
 				BE71AFA621D753C5009CEA18 /* PostVC.swift in Sources */,
 				BE71AF7321D7257D009CEA18 /* Post.swift in Sources */,

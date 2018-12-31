@@ -13,14 +13,16 @@ class BookViewCell: UITableViewCell {
 
     @IBOutlet weak var nameLbl: UILabel!
     @IBOutlet weak var bookImage: UIImageView!
+    @IBOutlet weak var excerpt: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
     
-    func updateCell(nameLbl : String, imageView: UIImage){
+    func updateCell(nameLbl : String,excerpt: String, imageView: UIImage){
         self.nameLbl.text = nameLbl
+        self.excerpt.text = excerpt
         self.bookImage.image = imageView
     }
     

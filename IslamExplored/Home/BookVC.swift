@@ -14,10 +14,18 @@ class BookVC: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
         let folioReader = FolioReader()
+    
+    lazy var refreshControl: UIRefreshControl = {
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(BookVC.handleRefresh3(_:)), for: UIControl.Event.valueChanged)
+        return refreshControl
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         tableView.register(UINib(nibName: "BookViewCell", bundle: nil), forCellReuseIdentifier: "BookCell")
+        tableView.addSubview(refreshControl)
     }
     
     private func readerConfiguration(forEpub epub: Epub) -> FolioReaderConfig {
@@ -77,6 +85,14 @@ class BookVC: UIViewController {
             print(error.localizedDescription)
         }
     }
+    
+    
+    
+    
+    @objc func handleRefresh3(_ refreshControl : UIRefreshControl) {
+        refreshControl.endRefreshing();
+    }
+    
 }
 
 
@@ -112,9 +128,10 @@ extension BookVC: UITableViewDelegate, UITableViewDataSource{
         if let epub = Epub(rawValue: indexPath.row) {
         let bookPath = epub.bookPath
         let name = epub.name
+        let excerpt = epub.excerpt
             do {
                 let image = try FolioReader.getCoverImage(bookPath!)
-                bookCell.updateCell(nameLbl: name, imageView: image)
+                bookCell.updateCell(nameLbl: name, excerpt: excerpt, imageView: image)
               
             } catch {
                 print(error.localizedDescription)

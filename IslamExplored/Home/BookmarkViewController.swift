@@ -13,18 +13,26 @@ class BookmarkViewController: UIViewController {
     
 
     let cellId : String = "wideCell"
-
-
     
     @IBOutlet weak var tableView: UITableView!
+    
+    
+    lazy var refreshControl: UIRefreshControl = {
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(BookmarkViewController.handleRefresh1(_:)), for: UIControl.Event.valueChanged)
+        return refreshControl
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         tableView.emptyDataSetSource = self
         tableView.emptyDataSetDelegate = self
         
         tableView.register(UINib(nibName: "WideStoryViewCell", bundle: nil), forCellReuseIdentifier: cellId)
-         tableView.reloadData()
+        tableView.addSubview(refreshControl)
+        tableView.reloadData()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -32,6 +40,13 @@ class BookmarkViewController: UIViewController {
         print(savedForLaterArray)
         tableView.reloadData()
     }
+    
+
+    
+    @objc func handleRefresh1(_ refreshControl : UIRefreshControl) {
+        refreshControl.endRefreshing();
+    }
+    
 }
 
 

@@ -17,7 +17,14 @@ enum Epub: Int {
     var name: String {
         switch self {
         case .bookOne:      return "The Silver Chair" // standard eBook
-        case .bookTwo:      return "hill think and grow rich"
+        case .bookTwo:      return "Hill Think and Grow Rich"
+        }
+    }
+    
+    var excerpt: String {
+        switch self {
+        case .bookOne:      return "The best explanatory translation of the Qur’aan by Muhammad Muhsin Khan and Taqi-ud-Deen Hilaali. the Qur’aan by Muhammad Muhsin Khan and Taqi-ud-Deen Hilaali." // standard eBook
+        case .bookTwo:      return " Proofs of Modern Science"
         }
     }
 

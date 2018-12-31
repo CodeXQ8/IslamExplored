@@ -41,7 +41,7 @@ class SearchVC: UIViewController, UISearchBarDelegate, UISearchControllerDelegat
         self.searchController.hidesNavigationBarDuringPresentation = false
         self.searchController.dimsBackgroundDuringPresentation = false
         self.navigationItem.titleView = searchController.searchBar
-        self.definesPresentationContext = true
+      //  self.definesPresentationContext = true
         self.searchController.searchBar.tintColor = UIColor.darkGray
         
         tableView.delegate = self
