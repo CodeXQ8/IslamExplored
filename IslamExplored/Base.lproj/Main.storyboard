@@ -484,7 +484,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="m0O-5q-UDI" kind="relationship" relationship="rootViewController" id="Cc5-O4-MhT"/>
+                        <segue destination="4BQ-mT-9eK" kind="relationship" relationship="rootViewController" id="Xnj-er-3Tb"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x8g-wL-gWE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -496,14 +496,9 @@
             <objects>
                 <tableViewController id="m0O-5q-UDI" customClass="MoreVC" customModule="IslamExplored" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="singleLineEtched" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7qp-JN-c6J">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <view key="tableFooterView" contentMode="scaleToFill" id="8Am-i3-UYQ" userLabel="Footer">
-                            <rect key="frame" x="0.0" y="562" width="414" height="44"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </view>
                         <sections>
                             <tableViewSection id="6sk-UX-eAc">
                                 <cells>
@@ -646,11 +641,126 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a3b-yc-rdV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1924.6376811594205" y="1626.5625"/>
+            <point key="canvasLocation" x="3726" y="1627"/>
+        </scene>
+        <!--More-->
+        <scene sceneID="G4I-sJ-Fcb">
+            <objects>
+                <tableViewController id="4BQ-mT-9eK" customClass="MoreVC" customModule="IslamExplored" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="tIe-bq-Mob">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="About Us" id="oM4-1q-xhs">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="347" id="4Ni-sG-SPb">
+                                        <rect key="frame" x="0.0" y="55.333333333333343" width="414" height="347"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4Ni-sG-SPb" id="c0m-rX-ImT">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="346.66666666666669"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xwm-cs-TY0">
+                                                    <rect key="frame" x="10" y="166" width="384" height="120"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <string key="text">We are a group of volunteers dedicated to present and preserve the correct understanding of Islam to both the Muslim and non-Muslim community. It is our hope that efforts will foster mutual respect, tolerance and help promote a better understanding of Islam.</string>
+                                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" name="Andada-Regular" family="Andada" pointSize="15"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Islam Explored copy" translatesAutoresizingMaskIntoConstraints="NO" id="7wc-Z1-WEj">
+                                                    <rect key="frame" x="82" y="11" width="250" height="150"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="250" id="3sJ-EU-aAo"/>
+                                                        <constraint firstAttribute="height" constant="150" id="rO8-Mc-jIm"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="7wc-Z1-WEj" firstAttribute="centerX" secondItem="c0m-rX-ImT" secondAttribute="centerX" id="216-x4-8tE"/>
+                                                <constraint firstAttribute="bottom" secondItem="xwm-cs-TY0" secondAttribute="bottom" constant="60.670000000000002" id="6yu-vQ-XcE"/>
+                                                <constraint firstItem="7wc-Z1-WEj" firstAttribute="top" secondItem="c0m-rX-ImT" secondAttribute="topMargin" id="I1k-OH-5oa"/>
+                                                <constraint firstItem="xwm-cs-TY0" firstAttribute="leading" secondItem="c0m-rX-ImT" secondAttribute="leading" constant="10" id="kDL-Xh-Bdw"/>
+                                                <constraint firstItem="xwm-cs-TY0" firstAttribute="top" secondItem="7wc-Z1-WEj" secondAttribute="bottom" constant="5" id="rUf-vX-lxs"/>
+                                                <constraint firstAttribute="trailing" secondItem="xwm-cs-TY0" secondAttribute="trailing" constant="20" id="yVA-KX-i0l"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Settings" id="UPX-SR-xty">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="cW8-bL-TmG">
+                                        <rect key="frame" x="0.0" y="458.33333333333331" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cW8-bL-TmG" id="gFG-bj-DBm">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oMF-u8-yfE">
+                                                    <rect key="frame" x="20" y="12" width="384" height="21"/>
+                                                    <fontDescription key="fontDescription" name="Andada-Regular" family="Andada" pointSize="16"/>
+                                                    <state key="normal" title="Share the App with Friends">
+                                                        <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="ShareBtn:" destination="4BQ-mT-9eK" eventType="touchUpInside" id="u29-8R-yaP"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="oMF-u8-yfE" firstAttribute="top" secondItem="gFG-bj-DBm" secondAttribute="top" constant="12" id="56t-tF-0VA"/>
+                                                <constraint firstAttribute="trailing" secondItem="oMF-u8-yfE" secondAttribute="trailing" constant="10" id="jz9-DX-nKJ"/>
+                                                <constraint firstItem="oMF-u8-yfE" firstAttribute="leading" secondItem="gFG-bj-DBm" secondAttribute="leading" constant="20" id="tuZ-7n-5m6"/>
+                                                <constraint firstAttribute="bottom" secondItem="oMF-u8-yfE" secondAttribute="bottom" constant="10.67" id="x5p-5f-UYN"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="8ih-fN-Xgn">
+                                        <rect key="frame" x="0.0" y="502.33333333333326" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8ih-fN-Xgn" id="XOZ-M3-PQC">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQG-4v-dGg">
+                                                    <rect key="frame" x="20" y="10.666666666666664" width="374" height="21"/>
+                                                    <fontDescription key="fontDescription" name="Andada-Regular" family="Andada" pointSize="16"/>
+                                                    <state key="normal" title="Send us FeedBack">
+                                                        <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="feedBackBtn:" destination="4BQ-mT-9eK" eventType="touchUpInside" id="C0q-Hl-yhV"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="QQG-4v-dGg" firstAttribute="leading" secondItem="XOZ-M3-PQC" secondAttribute="leading" constant="20" id="XEW-qn-Z87"/>
+                                                <constraint firstAttribute="bottom" secondItem="QQG-4v-dGg" secondAttribute="bottom" constant="12" id="aRL-rP-VtQ"/>
+                                                <constraint firstAttribute="trailing" secondItem="QQG-4v-dGg" secondAttribute="trailing" constant="20" id="dAD-OS-lVD"/>
+                                                <constraint firstItem="QQG-4v-dGg" firstAttribute="top" secondItem="XOZ-M3-PQC" secondAttribute="top" constant="10.67" id="ggc-LM-VpL"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="4BQ-mT-9eK" id="Y1X-hk-BUc"/>
+                            <outlet property="delegate" destination="4BQ-mT-9eK" id="T9y-Px-cYC"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="More" id="wMG-Gg-6h1"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aed-Uf-5Gm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1966.6666666666667" y="1634.5982142857142"/>
         </scene>
     </scenes>
     <resources>
         <image name="Islam Explored" width="500" height="500"/>
+        <image name="Islam Explored copy" width="496" height="300"/>
         <image name="iconfinder_bookmark-o_1608584" width="21" height="21"/>
         <image name="icons8-home-26" width="26" height="26"/>
         <image name="icons8-literature-30" width="30" height="30"/>

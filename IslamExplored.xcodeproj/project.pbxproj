@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		580DC00B67E4FC9F67E94E27 /* Pods_IslamExplored.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A2C5AF68946AEE624197F6 /* Pods_IslamExplored.framework */; };
 		BE03F1C021D965CD00B8648A /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03F1BF21D965CD00B8648A /* SearchVC.swift */; };
+		BE07E56721DAF98E00EEB0F2 /* Hill Think and Grow Rich.epub in Resources */ = {isa = PBXBuildFile; fileRef = BE07E56621DAF7D900EEB0F2 /* Hill Think and Grow Rich.epub */; };
 		BE4E352D21DA067E009A55EA /* Islam Explored.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4E352C21DA067E009A55EA /* Islam Explored.png */; };
 		BE71AF2121D71C57009CEA18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71AF2021D71C57009CEA18 /* AppDelegate.swift */; };
 		BE71AF2621D71C57009CEA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE71AF2421D71C57009CEA18 /* Main.storyboard */; };
@@ -74,6 +75,7 @@
 		35290BC8F6D502110108E094 /* Pods-IslamExplored.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamExplored.release.xcconfig"; path = "Pods/Target Support Files/Pods-IslamExplored/Pods-IslamExplored.release.xcconfig"; sourceTree = "<group>"; };
 		B067A98D89E5DE2D6D144D44 /* Pods-IslamExplored.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamExplored.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IslamExplored/Pods-IslamExplored.debug.xcconfig"; sourceTree = "<group>"; };
 		BE03F1BF21D965CD00B8648A /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		BE07E56621DAF7D900EEB0F2 /* Hill Think and Grow Rich.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hill Think and Grow Rich.epub"; sourceTree = "<group>"; };
 		BE4E352C21DA067E009A55EA /* Islam Explored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Islam Explored.png"; sourceTree = "<group>"; };
 		BE71AF1D21D71C57009CEA18 /* IslamExplored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslamExplored.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE71AF2021D71C57009CEA18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -368,6 +370,7 @@
 		BE92FD4821D9A5A900BBDE73 /* Sample eBooks */ = {
 			isa = PBXGroup;
 			children = (
+				BE07E56621DAF7D900EEB0F2 /* Hill Think and Grow Rich.epub */,
 				BE92FD4A21D9A5A900BBDE73 /* The Silver Chair.epub */,
 			);
 			path = "Sample eBooks";
@@ -445,6 +448,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE07E56721DAF98E00EEB0F2 /* Hill Think and Grow Rich.epub in Resources */,
 				BEF8715B21D879BC0035AEB5 /* 2.jpg in Resources */,
 				BE71AFA021D74AFD009CEA18 /* OpenSans-Light.ttf in Resources */,
 				BE71AF9321D74AFD009CEA18 /* Adamina-Regular.ttf in Resources */,
