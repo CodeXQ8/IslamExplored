@@ -37,10 +37,31 @@ class WideStoryViewCell: UITableViewCell {
     
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var contentLbl: UILabel!
+
+    @IBOutlet weak var ViewCell: UIView!
     
-    func updateCell(title : String, contentLbl: String){
+    
+    
+    func updateCell(title : String, contentLbl: String, screenWidth: CGFloat, screenModel: Model ){
         self.titleLbl.text = title
         self.contentLbl.text = contentLbl
+        
+
+        switch screenModel {
+        case .iPhoneSE,.iPhone5,.iPhone5S,.iPhone6,.iPhone7,.iPhone6S,.iPhone6plus,.iPhone6Splus,.iPhone7plus,.iPhone8,.iPhone8plus,.iPhoneX,.iPhoneXS,.iPhoneXSMax, .iPhoneXR:
+            
+            self.titleLbl.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
+            self.titleLbl.widthAnchor.constraint(equalToConstant: screenWidth - 35 ).isActive = true
+            
+            self.contentLbl.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
+            self.contentLbl.widthAnchor.constraint(equalToConstant: screenWidth - 35 ).isActive = true
+            
+        default:
+            self.titleLbl.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
+            self.titleLbl.widthAnchor.constraint(equalToConstant: screenWidth / 1.5 ).isActive = true
+            self.contentLbl.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
+            self.contentLbl.widthAnchor.constraint(equalToConstant: screenWidth / 1.5 ).isActive = true
+        }
     }
     
     func setDelegate(delegate : onStoryItemClickedProtocol){
@@ -59,3 +80,5 @@ class WideStoryViewCell: UITableViewCell {
 //        }
 //    }
 }
+
+

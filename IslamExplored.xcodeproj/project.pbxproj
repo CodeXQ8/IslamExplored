@@ -10,6 +10,8 @@
 		580DC00B67E4FC9F67E94E27 /* Pods_IslamExplored.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A2C5AF68946AEE624197F6 /* Pods_IslamExplored.framework */; };
 		BE03F1C021D965CD00B8648A /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03F1BF21D965CD00B8648A /* SearchVC.swift */; };
 		BE07E56721DAF98E00EEB0F2 /* Hill Think and Grow Rich.epub in Resources */ = {isa = PBXBuildFile; fileRef = BE07E56621DAF7D900EEB0F2 /* Hill Think and Grow Rich.epub */; };
+		BE07E56921DB13F200EEB0F2 /* styleIpad.css in Resources */ = {isa = PBXBuildFile; fileRef = BE07E56821DB13F200EEB0F2 /* styleIpad.css */; };
+		BE07E56B21DB1D5C00EEB0F2 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E56A21DB1D5C00EEB0F2 /* 4.png */; };
 		BE4E352D21DA067E009A55EA /* Islam Explored.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4E352C21DA067E009A55EA /* Islam Explored.png */; };
 		BE71AF2121D71C57009CEA18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71AF2021D71C57009CEA18 /* AppDelegate.swift */; };
 		BE71AF2621D71C57009CEA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE71AF2421D71C57009CEA18 /* Main.storyboard */; };
@@ -76,6 +78,8 @@
 		B067A98D89E5DE2D6D144D44 /* Pods-IslamExplored.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamExplored.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IslamExplored/Pods-IslamExplored.debug.xcconfig"; sourceTree = "<group>"; };
 		BE03F1BF21D965CD00B8648A /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		BE07E56621DAF7D900EEB0F2 /* Hill Think and Grow Rich.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hill Think and Grow Rich.epub"; sourceTree = "<group>"; };
+		BE07E56821DB13F200EEB0F2 /* styleIpad.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styleIpad.css; sourceTree = "<group>"; };
+		BE07E56A21DB1D5C00EEB0F2 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		BE4E352C21DA067E009A55EA /* Islam Explored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Islam Explored.png"; sourceTree = "<group>"; };
 		BE71AF1D21D71C57009CEA18 /* IslamExplored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslamExplored.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE71AF2021D71C57009CEA18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -327,6 +331,7 @@
 				BE71AF7721D7258A009CEA18 /* Islam-Bridging-Header.h */,
 				BE71AF7821D7258A009CEA18 /* String+Convenience.swift */,
 				BE71AF7921D7258A009CEA18 /* style.css */,
+				BE07E56821DB13F200EEB0F2 /* styleIpad.css */,
 				BE71AF7A21D7258A009CEA18 /* SWRevealViewController.h */,
 				BE71AF7B21D7258A009CEA18 /* SWRevealViewController.m */,
 			);
@@ -384,6 +389,7 @@
 				BEF8715C21D879C40035AEB5 /* 1.jpg */,
 				BEF8715921D879BB0035AEB5 /* 2.jpg */,
 				BEF8715821D879BB0035AEB5 /* 3.jpg */,
+				BE07E56A21DB1D5C00EEB0F2 /* 4.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -451,6 +457,7 @@
 				BE07E56721DAF98E00EEB0F2 /* Hill Think and Grow Rich.epub in Resources */,
 				BEF8715B21D879BC0035AEB5 /* 2.jpg in Resources */,
 				BE71AFA021D74AFD009CEA18 /* OpenSans-Light.ttf in Resources */,
+				BE07E56921DB13F200EEB0F2 /* styleIpad.css in Resources */,
 				BE71AF9321D74AFD009CEA18 /* Adamina-Regular.ttf in Resources */,
 				BE71AF6F21D722A8009CEA18 /* WideStoryViewCell.xib in Resources */,
 				BE71AFA321D74AFD009CEA18 /* OpenSans-SemiBold.ttf in Resources */,
@@ -475,6 +482,7 @@
 				BE71AF5B21D720AF009CEA18 /* SearchViewController.xib in Resources */,
 				BE71AF9721D74AFD009CEA18 /* Andada-Regular.otf in Resources */,
 				BE71AF9521D74AFD009CEA18 /* Andada-BoldItalic.otf in Resources */,
+				BE07E56B21DB1D5C00EEB0F2 /* 4.png in Resources */,
 				BE71AF6B21D722A8009CEA18 /* CompactStoryCollectionViewCell.xib in Resources */,
 				BE71AF9C21D74AFD009CEA18 /* OpenSans-BoldItalic.ttf in Resources */,
 				BE71AF2621D71C57009CEA18 /* Main.storyboard in Resources */,

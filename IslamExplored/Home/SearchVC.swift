@@ -14,12 +14,9 @@ class SearchVC: UIViewController, UISearchBarDelegate, UISearchControllerDelegat
     @IBOutlet weak var tableView: UITableView!
     
 
-    
+    let screenWidth = UIScreen.main.bounds.width
     var posts : [Post]?
-    
-    
     var currentPosts : [Post]?
-    
     var post: Post? {
         didSet {
             
@@ -113,7 +110,7 @@ extension SearchVC: UITableViewDelegate, UITableViewDataSource{
         let post = currentPosts![indexPath.row]
         let title = String(htmlEncodedString:post.title)
         let contentLbl = String(htmlEncodedString:post.excerpt)
-        wideCell.updateCell(title: title, contentLbl: contentLbl)
+        wideCell.updateCell(title: title, contentLbl: contentLbl, screenWidth: screenWidth, screenModel: UIDevice().type )
         return wideCell
     }
 

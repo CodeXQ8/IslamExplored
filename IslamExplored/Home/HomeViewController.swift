@@ -28,7 +28,9 @@ class HomeViewController: UIViewController , onStoryItemClickedProtocol{
        return refreshControl
     }()
     
-
+    let screenWidth = UIScreen.main.bounds.width
+    
+  
     
     
     override func viewDidLoad() {
@@ -37,7 +39,7 @@ class HomeViewController: UIViewController , onStoryItemClickedProtocol{
         fetchAllPosts()
 //        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
 //        navigationController?.navigationBar.shadowImage = UIImage()
-        
+        print(screenWidth)
         getDataSavedPost()
 
         tableView.register(UINib(nibName: "WideStoryViewCell", bundle: nil), forCellReuseIdentifier: "wideCell")
@@ -203,8 +205,8 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
         let post = postsFqa[indexPath.row]
         let title = String(htmlEncodedString:post.title)
         let contentLbl = String(htmlEncodedString:post.excerpt)
-        wideCell.updateCell(title: title, contentLbl: contentLbl)
-
+        wideCell.updateCell(title: title, contentLbl: contentLbl, screenWidth: screenWidth, screenModel: UIDevice().type )
+        print(screenWidth)
         
         let swipeCell = tableView.dequeueReusableCell(withIdentifier: "swipeCell", for: indexPath) as! SwipableTableViewCell
         swipeCell.selectionStyle = .none

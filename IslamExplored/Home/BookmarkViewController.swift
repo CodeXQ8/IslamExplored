@@ -15,7 +15,8 @@ class BookmarkViewController: UIViewController {
     let cellId : String = "wideCell"
     
     @IBOutlet weak var tableView: UITableView!
-    
+    let screenWidth = UIScreen.main.bounds.width
+
     
     lazy var refreshControl: UIRefreshControl = {
         let refreshControl = UIRefreshControl()
@@ -78,7 +79,7 @@ extension BookmarkViewController : UITableViewDelegate, UITableViewDataSource, E
         let title = String(htmlEncodedString:post.title)
         let contentLbl = String(htmlEncodedString:post.excerpt)
         
-        cell.updateCell(title: title, contentLbl: contentLbl)
+        cell.updateCell(title: title, contentLbl: contentLbl, screenWidth: screenWidth, screenModel: UIDevice().type )
         return cell
     }
     
