@@ -37,6 +37,7 @@ class HomeViewController: UIViewController , onStoryItemClickedProtocol{
         super.viewDidLoad()
         
         fetchAllPosts()
+        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = false
 //        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
 //        navigationController?.navigationBar.shadowImage = UIImage()
         print(screenWidth)
@@ -114,10 +115,15 @@ class HomeViewController: UIViewController , onStoryItemClickedProtocol{
              getDataSavedPost()
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+    
+    }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         getDataSavedPost()
+        
     }
     
     func containPostId(postId: Int) -> Bool {

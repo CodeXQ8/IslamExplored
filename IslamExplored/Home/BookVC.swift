@@ -21,6 +21,8 @@ class BookVC: UIViewController {
         return refreshControl
     }()
     
+    let screenWidth = UIScreen.main.bounds.width
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -116,7 +118,7 @@ class BookVC: UIViewController {
 extension BookVC: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 3
     }
     
     
@@ -131,7 +133,7 @@ extension BookVC: UITableViewDelegate, UITableViewDataSource{
         let excerpt = epub.excerpt
             do {
                 let image = try FolioReader.getCoverImage(bookPath!)
-                bookCell.updateCell(nameLbl: name, excerpt: excerpt, imageView: image)
+                bookCell.updateCell(nameLbl: name, excerpt: excerpt, imageView: image, screenWidth: screenWidth, screenModel: UIDevice().type)
               
             } catch {
                 print(error.localizedDescription)

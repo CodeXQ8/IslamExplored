@@ -20,10 +20,29 @@ class BookViewCell: UITableViewCell {
         // Initialization code
     }
     
-    func updateCell(nameLbl : String,excerpt: String, imageView: UIImage){
+    func updateCell(nameLbl : String,excerpt: String, imageView: UIImage,screenWidth: CGFloat,  screenModel: Model ){
         self.nameLbl.text = nameLbl
         self.excerpt.text = excerpt
         self.bookImage.image = imageView
+        
+//        switch screenModel {
+//        case .iPhoneSE,.iPhone5,.iPhone5S,.iPhone6,.iPhone7,.iPhone6S,.iPhone6plus,.iPhone6Splus,.iPhone7plus,.iPhone8,.iPhone8plus,.iPhoneX,.iPhoneXS,.iPhoneXSMax, .iPhoneXR:
+//            
+//          //  self.nameLbl.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
+//            self.nameLbl.widthAnchor.constraint(equalToConstant: screenWidth - 35 ).isActive = true
+//            self.bookImage.rightAnchor.constraint(equalTo: contentView.leftAnchor, constant: 400) .isActive = true
+//            
+//           // self.contentLbl.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
+//            self.excerpt.widthAnchor.constraint(equalToConstant: screenWidth - 35 ).isActive = true
+//            
+//        default:
+//            self.nameLbl.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
+//            self.nameLbl.widthAnchor.constraint(equalToConstant: screenWidth / 1.5 ).isActive = true
+//            self.excerpt.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
+//            self.excerpt.widthAnchor.constraint(equalToConstant: screenWidth / 1.5 ).isActive = true
+//        }
+        
+        
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {

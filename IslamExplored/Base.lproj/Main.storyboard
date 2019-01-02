@@ -29,10 +29,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DH6-zk-2gs">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DH6-zk-2gs">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <inset key="separatorInset" minX="150" minY="0.0" maxX="150" maxY="0.0"/>
+                                <inset key="separatorInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="kPJ-8b-u52" userLabel="footer">
                                     <rect key="frame" x="0.0" y="72" width="414" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -110,7 +110,8 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="AF6-ui-5c5">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="Andada-Bold" family="Andada" pointSize="17"/>
                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -207,7 +208,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="x2A-ji-po6">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <inset key="separatorInset" minX="150" minY="0.0" maxX="150" maxY="0.0"/>
+                                <inset key="separatorInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="upk-h4-wuJ" userLabel="footer">
                                     <rect key="frame" x="0.0" y="72" width="414" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -250,57 +251,91 @@
             </objects>
             <point key="canvasLocation" x="1893" y="122"/>
         </scene>
-        <!--Books-->
+        <!--Quran-->
         <scene sceneID="ogv-wr-e4R">
             <objects>
-                <viewController id="LDE-2z-hAK" customClass="BookVC" customModule="IslamExplored" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LDE-2z-hAK" customClass="QuranVC" customModule="IslamExplored" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gGz-cK-p79">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="OgT-Cr-eA6">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <inset key="separatorInset" minX="150" minY="0.0" maxX="150" maxY="0.0"/>
-                                <view key="tableFooterView" contentMode="scaleToFill" id="8s3-TD-eWF" userLabel="footer">
-                                    <rect key="frame" x="0.0" y="72" width="414" height="44"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </view>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="0yt-Pt-phY">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0yt-Pt-phY" id="gB9-3E-fy8">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ntt-Xe-we7">
+                                <rect key="frame" x="82" y="118" width="250" height="360"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="360" id="3kb-Od-weW"/>
+                                    <constraint firstAttribute="width" constant="250" id="6ds-Sx-0yu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUf-ot-cwa">
+                                <rect key="frame" x="32" y="508.00000000000006" width="350" height="30.666666666666686"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="x8l-hr-b7z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Andada-Bold" family="Andada" pointSize="24"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUP-J7-1ed" customClass="DesignableButton" customModule="IslamExplored">
+                                <rect key="frame" x="107" y="612.66666666666663" width="200" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ETY-CQ-XzV"/>
+                                    <constraint firstAttribute="width" constant="200" id="It1-g7-G9f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Andada-Bold" family="Andada" pointSize="21"/>
+                                <state key="normal" title="Read">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <outlet property="dataSource" destination="LDE-2z-hAK" id="D2J-3n-cEb"/>
-                                    <outlet property="delegate" destination="LDE-2z-hAK" id="eHL-or-csz"/>
+                                    <action selector="ReadBtn:" destination="LDE-2z-hAK" eventType="touchUpInside" id="gIs-u3-ayC"/>
                                 </connections>
-                            </tableView>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FsA-qQ-a5L">
+                                <rect key="frame" x="32" y="558.66666666666663" width="350" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="GnM-yp-awt"/>
+                                    <constraint firstAttribute="width" constant="350" id="oFJ-fv-aFm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Andada-Regular" family="Andada" pointSize="18"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="OgT-Cr-eA6" firstAttribute="top" secondItem="pYw-iy-cJv" secondAttribute="top" id="3lC-zJ-Wd4"/>
-                            <constraint firstItem="OgT-Cr-eA6" firstAttribute="trailing" secondItem="pYw-iy-cJv" secondAttribute="trailing" id="9eW-Q3-fDk"/>
-                            <constraint firstItem="OgT-Cr-eA6" firstAttribute="bottom" secondItem="pYw-iy-cJv" secondAttribute="bottom" id="s29-QV-FVg"/>
-                            <constraint firstItem="OgT-Cr-eA6" firstAttribute="leading" secondItem="pYw-iy-cJv" secondAttribute="leading" id="wvq-wG-9Yb"/>
+                            <constraint firstItem="nUP-J7-1ed" firstAttribute="top" secondItem="FsA-qQ-a5L" secondAttribute="bottom" constant="30" id="6h3-H0-dG6"/>
+                            <constraint firstItem="FsA-qQ-a5L" firstAttribute="top" secondItem="uUf-ot-cwa" secondAttribute="bottom" constant="20" id="7qI-OY-2CG"/>
+                            <constraint firstItem="Ntt-Xe-we7" firstAttribute="centerX" secondItem="gGz-cK-p79" secondAttribute="centerX" id="8wx-0n-gsM"/>
+                            <constraint firstItem="uUf-ot-cwa" firstAttribute="centerX" secondItem="gGz-cK-p79" secondAttribute="centerX" id="GGR-x3-y1Z"/>
+                            <constraint firstItem="Ntt-Xe-we7" firstAttribute="top" secondItem="pYw-iy-cJv" secondAttribute="top" constant="30" id="PJH-Hb-TpS"/>
+                            <constraint firstItem="nUP-J7-1ed" firstAttribute="centerX" secondItem="gGz-cK-p79" secondAttribute="centerX" id="a2y-c7-RK8"/>
+                            <constraint firstItem="FsA-qQ-a5L" firstAttribute="centerX" secondItem="gGz-cK-p79" secondAttribute="centerX" id="a5G-Hp-nNY"/>
+                            <constraint firstItem="uUf-ot-cwa" firstAttribute="top" secondItem="Ntt-Xe-we7" secondAttribute="bottom" constant="30" id="xv6-vH-SKZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pYw-iy-cJv"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Books" id="c3F-qU-zJ9"/>
+                    <navigationItem key="navigationItem" title="Quran" id="c3F-qU-zJ9"/>
                     <connections>
-                        <outlet property="tableView" destination="OgT-Cr-eA6" id="B0p-7E-Z1D"/>
+                        <outlet property="bookImage" destination="Ntt-Xe-we7" id="Hum-2d-53G"/>
+                        <outlet property="bookName" destination="uUf-ot-cwa" id="RGk-16-h8V"/>
+                        <outlet property="excerptBook" destination="FsA-qQ-a5L" id="JfG-mz-qXK"/>
                         <segue destination="b2h-pw-euu" kind="showDetail" identifier="showBook" id="krz-eh-53m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k84-5V-sWr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1926" y="860"/>
+            <point key="canvasLocation" x="2060.8695652173915" y="859.82142857142856"/>
         </scene>
         <!--Bookmarks-->
         <scene sceneID="tBD-3r-oGD">
@@ -339,7 +374,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="95M-RH-pmv">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <inset key="separatorInset" minX="150" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="separatorInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="OPf-uI-R59" userLabel="footer">
                                     <rect key="frame" x="0.0" y="72" width="414" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -382,11 +417,11 @@
             </objects>
             <point key="canvasLocation" x="3203" y="-593"/>
         </scene>
-        <!--Books-->
+        <!--Quran-->
         <scene sceneID="255-LQ-mon">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9EG-9b-Eq1" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Books" image="icons8-literature-30" id="1Nn-xS-Qn9"/>
+                    <tabBarItem key="tabBarItem" title="Quran" image="icons8-literature-30" id="1Nn-xS-Qn9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3f6-Le-F0I">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -486,6 +521,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rJ4-hJ-EaS">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -646,7 +684,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a3b-yc-rdV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3726" y="1627"/>
+            <point key="canvasLocation" x="5733" y="1635"/>
         </scene>
         <!--More-->
         <scene sceneID="G4I-sJ-Fcb">
@@ -762,6 +800,57 @@
             </objects>
             <point key="canvasLocation" x="1966.6666666666667" y="1634.5982142857142"/>
         </scene>
+        <!--Books-->
+        <scene sceneID="HCW-wC-rVA">
+            <objects>
+                <viewController id="VKQ-vI-Ual" customClass="BookVC" customModule="IslamExplored" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yAM-vG-nJU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iyx-tu-nGP">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="separatorInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="9bi-l9-RCp" userLabel="footer">
+                                    <rect key="frame" x="0.0" y="72" width="414" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="kdm-x1-0kY">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kdm-x1-0kY" id="CcG-4P-myS">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="VKQ-vI-Ual" id="Se8-m4-ST6"/>
+                                    <outlet property="delegate" destination="VKQ-vI-Ual" id="l05-uU-eOA"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iyx-tu-nGP" firstAttribute="trailing" secondItem="icV-oj-VH3" secondAttribute="trailing" id="HD7-Fj-hvL"/>
+                            <constraint firstItem="iyx-tu-nGP" firstAttribute="top" secondItem="icV-oj-VH3" secondAttribute="top" id="In3-tE-OmC"/>
+                            <constraint firstItem="iyx-tu-nGP" firstAttribute="leading" secondItem="icV-oj-VH3" secondAttribute="leading" id="WQ8-pG-OLh"/>
+                            <constraint firstItem="iyx-tu-nGP" firstAttribute="bottom" secondItem="icV-oj-VH3" secondAttribute="bottom" id="XVd-Pi-aFG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="icV-oj-VH3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Books" id="2iU-bk-gMf"/>
+                    <connections>
+                        <outlet property="tableView" destination="iyx-tu-nGP" id="ZMT-bH-W4F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KTJ-6Q-QNP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5001" y="1635"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Islam Explored" width="500" height="500"/>
@@ -773,6 +862,6 @@
         <image name="round_bookmarks_black_24pt" width="24" height="24"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="brw-lP-QCA"/>
+        <segue reference="9Gq-Be-kA4"/>
     </inferredMetricsTieBreakers>
 </document>
