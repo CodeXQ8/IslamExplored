@@ -25,6 +25,14 @@ class BookViewCell: UITableViewCell {
         self.excerpt.text = excerpt
         self.bookImage.image = imageView
         
+        bookImage.layer.masksToBounds = true
+        bookImage.layer.shadowOffset = CGSize(width: -1, height: 1)
+        bookImage.layer.shadowRadius = 1
+        bookImage.layer.shadowOpacity = 0.5
+        bookImage.layer.cornerRadius = 5
+        
+        
+        
 //        switch screenModel {
 //        case .iPhoneSE,.iPhone5,.iPhone5S,.iPhone6,.iPhone7,.iPhone6S,.iPhone6plus,.iPhone6Splus,.iPhone7plus,.iPhone8,.iPhone8plus,.iPhoneX,.iPhoneXS,.iPhoneXSMax, .iPhoneXR:
 //            

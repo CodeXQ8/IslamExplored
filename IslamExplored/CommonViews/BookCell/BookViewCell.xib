@@ -28,19 +28,19 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3Z-dl-O5i">
-                        <rect key="frame" x="150" y="31" width="246" height="28"/>
+                        <rect key="frame" x="140" y="21" width="256" height="28"/>
                         <fontDescription key="fontDescription" name="Andada-Bold" family="Andada" pointSize="21"/>
                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b90-sc-Esi">
-                        <rect key="frame" x="150" y="64" width="246" height="21.5"/>
-                        <fontDescription key="fontDescription" name="Andada-Regular" family="Andada" pointSize="16"/>
+                        <rect key="frame" x="140" y="54" width="256" height="18.5"/>
+                        <fontDescription key="fontDescription" name="Andada-Regular" family="Andada" pointSize="14"/>
                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="typewriter" translatesAutoresizingMaskIntoConstraints="NO" id="p06-tl-Pad">
-                        <rect key="frame" x="40" y="14" width="90" height="130"/>
+                        <rect key="frame" x="30" y="14" width="90" height="130"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="130" id="Kfv-Id-3bf"/>
                             <constraint firstAttribute="width" constant="90" id="Qow-em-cJb"/>
@@ -53,8 +53,8 @@
                     <constraint firstAttribute="trailing" secondItem="b90-sc-Esi" secondAttribute="trailing" constant="20" id="D9K-kU-CsV"/>
                     <constraint firstAttribute="bottomMargin" secondItem="p06-tl-Pad" secondAttribute="bottom" constant="5" id="H4r-pv-t7b"/>
                     <constraint firstAttribute="trailing" secondItem="B3Z-dl-O5i" secondAttribute="trailing" constant="20" id="TAg-1i-G7X"/>
-                    <constraint firstItem="B3Z-dl-O5i" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="20" id="eQi-fe-boq"/>
-                    <constraint firstItem="p06-tl-Pad" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="gXE-it-bfc"/>
+                    <constraint firstItem="B3Z-dl-O5i" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="eQi-fe-boq"/>
+                    <constraint firstItem="p06-tl-Pad" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="gXE-it-bfc"/>
                     <constraint firstItem="b90-sc-Esi" firstAttribute="top" secondItem="B3Z-dl-O5i" secondAttribute="bottom" constant="5" id="oAj-ph-U8E"/>
                     <constraint firstItem="p06-tl-Pad" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="3" id="ti3-FG-glj"/>
                 </constraints>
@@ -65,7 +65,7 @@
                 <outlet property="excerpt" destination="b90-sc-Esi" id="v2E-wc-1sx"/>
                 <outlet property="nameLbl" destination="B3Z-dl-O5i" id="xJK-ef-zkB"/>
             </connections>
-            <point key="canvasLocation" x="-189" y="113"/>
+            <point key="canvasLocation" x="-190.40000000000001" y="112.44377811094454"/>
         </tableViewCell>
     </objects>
     <resources>

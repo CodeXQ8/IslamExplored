@@ -31,7 +31,7 @@ class QuranVC: UIViewController {
                 bookImage.layer.shadowOffset = CGSize(width: -1, height: 1)
                 bookImage.layer.shadowRadius = 1
                 bookImage.layer.shadowOpacity = 0.5
-                bookImage.layer.cornerRadius = 10
+                bookImage.layer.cornerRadius = 5
                 
                 bookName.text = name
                 excerptBook.text = excerpt

@@ -11,15 +11,15 @@ import FolioReaderKit
 
 enum Epub: Int {
     case bookOne = 0
-    case bookTwo = 1
-    case bookThree = 2
+//    case bookTwo = 1
+//    case bookThree = 2
 
 
     var name: String {
         switch self {
         case .bookOne:      return "Quran in English" // standard eBook
-        case .bookTwo:      return "The Silver Chair"
-        case .bookThree:      return "Hill Think and Grow Rich"
+//        case .bookTwo:      return "The Silver Chair"
+//        case .bookThree:      return "Hill Think and Grow Rich"
             
       
         }
@@ -28,24 +28,24 @@ enum Epub: Int {
     var excerpt: String {
         switch self {
         case .bookOne:      return "Clear And Easy to Understand Modern English Translation" // standard eBook
-        case .bookTwo:      return " Proofs of Modern Science"
-        case .bookThree:      return "The best explanatory translation of the Qur’aan by Muhammad Muhsin Khan and Taqi-ud-Deen Hilaali. the Qur’aan by Muhammad Muhsin Khan and Taqi-ud-Deen Hilaali."
+//        case .bookTwo:      return " Proofs of Modern Science"
+//        case .bookThree:      return "The best explanatory translation of the Qur’aan by Muhammad Muhsin Khan and Taqi-ud-Deen Hilaali. the Qur’aan by Muhammad Muhsin Khan and Taqi-ud-Deen Hilaali."
         }
     }
 
     var shouldHideNavigationOnTap: Bool {
         switch self {
         case .bookOne:      return false
-        case .bookTwo:      return false
-        case .bookThree:    return false
+//        case .bookTwo:      return false
+//        case .bookThree:    return false
         }
     }
 
     var scrollDirection: FolioReaderScrollDirection {
         switch self {
         case .bookOne:      return .horizontal
-        case .bookTwo:      return .horizontal
-        case .bookThree:    return .horizontal
+//        case .bookTwo:      return .horizontal
+//        case .bookThree:    return .horizontal
 
         }
     }
@@ -57,8 +57,8 @@ enum Epub: Int {
     var readerIdentifier: String {
         switch self {
         case .bookOne:      return "READER_ONE"
-        case .bookTwo:      return "READER_TWO"
-        case .bookThree:    return "READER_THREE"
+//        case .bookTwo:      return "READER_TWO"
+//        case .bookThree:    return "READER_THREE"
 
         }
     }

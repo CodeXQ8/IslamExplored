@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		580DC00B67E4FC9F67E94E27 /* Pods_IslamExplored.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A2C5AF68946AEE624197F6 /* Pods_IslamExplored.framework */; };
 		BE03F1C021D965CD00B8648A /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03F1BF21D965CD00B8648A /* SearchVC.swift */; };
-		BE07E56721DAF98E00EEB0F2 /* Hill Think and Grow Rich.epub in Resources */ = {isa = PBXBuildFile; fileRef = BE07E56621DAF7D900EEB0F2 /* Hill Think and Grow Rich.epub */; };
 		BE07E56921DB13F200EEB0F2 /* styleIpad.css in Resources */ = {isa = PBXBuildFile; fileRef = BE07E56821DB13F200EEB0F2 /* styleIpad.css */; };
-		BE07E56B21DB1D5C00EEB0F2 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = BE07E56A21DB1D5C00EEB0F2 /* 4.png */; };
-		BE4E352D21DA067E009A55EA /* Islam Explored.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4E352C21DA067E009A55EA /* Islam Explored.png */; };
 		BE71AF2121D71C57009CEA18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71AF2021D71C57009CEA18 /* AppDelegate.swift */; };
 		BE71AF2621D71C57009CEA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE71AF2421D71C57009CEA18 /* Main.storyboard */; };
 		BE71AF2821D71C5A009CEA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE71AF2721D71C5A009CEA18 /* Assets.xcassets */; };
@@ -62,17 +59,44 @@
 		BE92FD4221D9A40600BBDE73 /* BookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92FD4121D9A40600BBDE73 /* BookVC.swift */; };
 		BE92FD4621D9A4FC00BBDE73 /* BookViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92FD4421D9A4FC00BBDE73 /* BookViewCell.swift */; };
 		BE92FD4721D9A4FC00BBDE73 /* BookViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE92FD4521D9A4FC00BBDE73 /* BookViewCell.xib */; };
-		BE92FD4C21D9A5A900BBDE73 /* The Silver Chair.epub in Resources */ = {isa = PBXBuildFile; fileRef = BE92FD4A21D9A5A900BBDE73 /* The Silver Chair.epub */; };
 		BE92FD4E21D9A5B000BBDE73 /* Epub.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92FD4D21D9A5B000BBDE73 /* Epub.swift */; };
 		BE92FD5021D9AFA400BBDE73 /* ExampleFolioReaderContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE92FD4F21D9AFA400BBDE73 /* ExampleFolioReaderContainer.swift */; };
 		BE9AEF2E21DC4A7500DB555D /* QuranVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AEF2D21DC4A7500DB555D /* QuranVC.swift */; };
 		BE9AEF3221DC4C0200DB555D /* DeisgnableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9AEF3021DC4C0200DB555D /* DeisgnableButton.swift */; };
 		BE9C032521DBF6C800251EDE /* Quran in English.epub in Resources */ = {isa = PBXBuildFile; fileRef = BE9C032321DBF13000251EDE /* Quran in English.epub */; };
 		BEA2D1FD21DAB78300F9128F /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA2D1FC21DAB78300F9128F /* MoreVC.swift */; };
-		BEF8715A21D879BC0035AEB5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEF8715821D879BB0035AEB5 /* 3.jpg */; };
-		BEF8715B21D879BC0035AEB5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEF8715921D879BB0035AEB5 /* 2.jpg */; };
-		BEF8715D21D879C40035AEB5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEF8715C21D879C40035AEB5 /* 1.jpg */; };
-		BEF8715F21D879CA0035AEB5 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEF8715E21D879CA0035AEB5 /* 0.jpg */; };
+		BEAE4C8421DDA0F200B2D2FB /* The Key to Understanding Islam.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEAE4C8321DDA0F200B2D2FB /* The Key to Understanding Islam.pdf */; };
+		BEAE4C8821DDA7F600B2D2FB /* PDFViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE4C8721DDA7F600B2D2FB /* PDFViewVC.swift */; };
+		BEAE4C8F21DDAF8800B2D2FB /* How He Treated Them.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEAE4C8A21DDAF8600B2D2FB /* How He Treated Them.pdf */; };
+		BEAE4C9021DDAF8800B2D2FB /* Why Islam? - Proofs of Modern Science.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEAE4C8B21DDAF8600B2D2FB /* Why Islam? - Proofs of Modern Science.pdf */; };
+		BEAE4C9121DDAF8800B2D2FB /* Women in Islam.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEAE4C8C21DDAF8700B2D2FB /* Women in Islam.pdf */; };
+		BEAE4C9221DDAF8800B2D2FB /* Jesus Man Messenger Messiah.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEAE4C8D21DDAF8800B2D2FB /* Jesus Man Messenger Messiah.pdf */; };
+		BEAE4CA421DDB22900B2D2FB /* The True Muslim.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEAE4CA321DDB22900B2D2FB /* The True Muslim.pdf */; };
+		BEAE4CA621DDB23000B2D2FB /* Sharia law in Islam, Christianity and Judaism.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEAE4CA521DDB23000B2D2FB /* Sharia law in Islam, Christianity and Judaism.pdf */; };
+		BEAE4CA821DDB30900B2D2FB /* Human Rights in Islam.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEAE4CA721DDB30900B2D2FB /* Human Rights in Islam.pdf */; };
+		BEECF3C621E2886400A86A36 /* 20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C021E2886200A86A36 /* 20.jpg */; };
+		BEECF3C721E2886400A86A36 /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C121E2886200A86A36 /* 17.jpg */; };
+		BEECF3C821E2886400A86A36 /* 21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C221E2886300A86A36 /* 21.jpg */; };
+		BEECF3C921E2886400A86A36 /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C321E2886300A86A36 /* 16.jpg */; };
+		BEECF3CA21E2886400A86A36 /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C421E2886400A86A36 /* 22.jpg */; };
+		BEECF3CB21E2886400A86A36 /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C521E2886400A86A36 /* 15.jpg */; };
+		BEECF3CD21E288CE00A86A36 /* 18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3CC21E288CE00A86A36 /* 18.jpg */; };
+		BEECF3CF21E288EA00A86A36 /* 19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3CE21E288EA00A86A36 /* 19.jpg */; };
+		BEECF3DC21E2892600A86A36 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D021E2891F00A86A36 /* 0.jpg */; };
+		BEECF3DD21E2892600A86A36 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D121E2892000A86A36 /* 7.jpg */; };
+		BEECF3DE21E2892600A86A36 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D221E2892000A86A36 /* 3.jpg */; };
+		BEECF3E021E2892600A86A36 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D421E2892200A86A36 /* 1.jpg */; };
+		BEECF3E121E2892600A86A36 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D521E2892200A86A36 /* 8.jpg */; };
+		BEECF3E221E2892600A86A36 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D621E2892300A86A36 /* 10.jpg */; };
+		BEECF3E321E2892600A86A36 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D721E2892400A86A36 /* 6.jpg */; };
+		BEECF3E421E2892600A86A36 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D821E2892400A86A36 /* 4.jpg */; };
+		BEECF3E521E2892600A86A36 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D921E2892500A86A36 /* 2.jpg */; };
+		BEECF3E621E2892600A86A36 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3DA21E2892600A86A36 /* 5.jpg */; };
+		BEECF3E721E2892600A86A36 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3DB21E2892600A86A36 /* 9.jpg */; };
+		BEECF3EC21E2894B00A86A36 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3E821E2894900A86A36 /* 13.jpg */; };
+		BEECF3ED21E2894B00A86A36 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3E921E2894900A86A36 /* 11.jpg */; };
+		BEECF3EE21E2894B00A86A36 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3EA21E2894A00A86A36 /* 12.jpg */; };
+		BEECF3EF21E2894B00A86A36 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3EB21E2894B00A86A36 /* 14.jpg */; };
 		BEF8716121D88C100035AEB5 /* BookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8716021D88C100035AEB5 /* BookmarkViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -80,10 +104,7 @@
 		35290BC8F6D502110108E094 /* Pods-IslamExplored.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamExplored.release.xcconfig"; path = "Pods/Target Support Files/Pods-IslamExplored/Pods-IslamExplored.release.xcconfig"; sourceTree = "<group>"; };
 		B067A98D89E5DE2D6D144D44 /* Pods-IslamExplored.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamExplored.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IslamExplored/Pods-IslamExplored.debug.xcconfig"; sourceTree = "<group>"; };
 		BE03F1BF21D965CD00B8648A /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
-		BE07E56621DAF7D900EEB0F2 /* Hill Think and Grow Rich.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hill Think and Grow Rich.epub"; sourceTree = "<group>"; };
 		BE07E56821DB13F200EEB0F2 /* styleIpad.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styleIpad.css; sourceTree = "<group>"; };
-		BE07E56A21DB1D5C00EEB0F2 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
-		BE4E352C21DA067E009A55EA /* Islam Explored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Islam Explored.png"; sourceTree = "<group>"; };
 		BE71AF1D21D71C57009CEA18 /* IslamExplored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslamExplored.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE71AF2021D71C57009CEA18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE71AF2521D71C57009CEA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -137,17 +158,44 @@
 		BE92FD4121D9A40600BBDE73 /* BookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVC.swift; sourceTree = "<group>"; };
 		BE92FD4421D9A4FC00BBDE73 /* BookViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewCell.swift; sourceTree = "<group>"; };
 		BE92FD4521D9A4FC00BBDE73 /* BookViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookViewCell.xib; sourceTree = "<group>"; };
-		BE92FD4A21D9A5A900BBDE73 /* The Silver Chair.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Silver Chair.epub"; sourceTree = "<group>"; };
 		BE92FD4D21D9A5B000BBDE73 /* Epub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Epub.swift; sourceTree = "<group>"; };
 		BE92FD4F21D9AFA400BBDE73 /* ExampleFolioReaderContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleFolioReaderContainer.swift; sourceTree = "<group>"; };
 		BE9AEF2D21DC4A7500DB555D /* QuranVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranVC.swift; sourceTree = "<group>"; };
 		BE9AEF3021DC4C0200DB555D /* DeisgnableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeisgnableButton.swift; sourceTree = "<group>"; };
 		BE9C032321DBF13000251EDE /* Quran in English.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quran in English.epub"; sourceTree = "<group>"; };
 		BEA2D1FC21DAB78300F9128F /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
-		BEF8715821D879BB0035AEB5 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
-		BEF8715921D879BB0035AEB5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
-		BEF8715C21D879C40035AEB5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		BEF8715E21D879CA0035AEB5 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		BEAE4C8321DDA0F200B2D2FB /* The Key to Understanding Islam.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Key to Understanding Islam.pdf"; sourceTree = "<group>"; };
+		BEAE4C8721DDA7F600B2D2FB /* PDFViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewVC.swift; sourceTree = "<group>"; };
+		BEAE4C8A21DDAF8600B2D2FB /* How He Treated Them.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "How He Treated Them.pdf"; sourceTree = "<group>"; };
+		BEAE4C8B21DDAF8600B2D2FB /* Why Islam? - Proofs of Modern Science.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Why Islam? - Proofs of Modern Science.pdf"; sourceTree = "<group>"; };
+		BEAE4C8C21DDAF8700B2D2FB /* Women in Islam.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Women in Islam.pdf"; sourceTree = "<group>"; };
+		BEAE4C8D21DDAF8800B2D2FB /* Jesus Man Messenger Messiah.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Jesus Man Messenger Messiah.pdf"; sourceTree = "<group>"; };
+		BEAE4CA321DDB22900B2D2FB /* The True Muslim.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The True Muslim.pdf"; sourceTree = "<group>"; };
+		BEAE4CA521DDB23000B2D2FB /* Sharia law in Islam, Christianity and Judaism.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Sharia law in Islam, Christianity and Judaism.pdf"; sourceTree = "<group>"; };
+		BEAE4CA721DDB30900B2D2FB /* Human Rights in Islam.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Human Rights in Islam.pdf"; sourceTree = "<group>"; };
+		BEECF3C021E2886200A86A36 /* 20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20.jpg; sourceTree = "<group>"; };
+		BEECF3C121E2886200A86A36 /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = "<group>"; };
+		BEECF3C221E2886300A86A36 /* 21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21.jpg; sourceTree = "<group>"; };
+		BEECF3C321E2886300A86A36 /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
+		BEECF3C421E2886400A86A36 /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		BEECF3C521E2886400A86A36 /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		BEECF3CC21E288CE00A86A36 /* 18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.jpg; sourceTree = "<group>"; };
+		BEECF3CE21E288EA00A86A36 /* 19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.jpg; sourceTree = "<group>"; };
+		BEECF3D021E2891F00A86A36 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		BEECF3D121E2892000A86A36 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		BEECF3D221E2892000A86A36 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		BEECF3D421E2892200A86A36 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		BEECF3D521E2892200A86A36 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		BEECF3D621E2892300A86A36 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		BEECF3D721E2892400A86A36 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		BEECF3D821E2892400A86A36 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		BEECF3D921E2892500A86A36 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		BEECF3DA21E2892600A86A36 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		BEECF3DB21E2892600A86A36 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		BEECF3E821E2894900A86A36 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		BEECF3E921E2894900A86A36 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		BEECF3EA21E2894A00A86A36 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		BEECF3EB21E2894B00A86A36 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
 		BEF8716021D88C100035AEB5 /* BookmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkViewController.swift; sourceTree = "<group>"; };
 		C1A2C5AF68946AEE624197F6 /* Pods_IslamExplored.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IslamExplored.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -202,9 +250,9 @@
 		BE71AF1F21D71C57009CEA18 /* IslamExplored */ = {
 			isa = PBXGroup;
 			children = (
+				BEECF3BF21E2883200A86A36 /* image */,
 				BE9AEF2F21DC4C0200DB555D /* Deignable */,
 				BE92FD4821D9A5A900BBDE73 /* Sample eBooks */,
-				BEF8715721D8799F0035AEB5 /* Images */,
 				BE71AF8021D74AFC009CEA18 /* Font */,
 				BE71AF7521D7258A009CEA18 /* Supporting Files */,
 				BE71AF7021D7257D009CEA18 /* Wordpress */,
@@ -233,6 +281,7 @@
 				BE92FD4F21D9AFA400BBDE73 /* ExampleFolioReaderContainer.swift */,
 				BEA2D1FC21DAB78300F9128F /* MoreVC.swift */,
 				BE9AEF2D21DC4A7500DB555D /* QuranVC.swift */,
+				BEAE4C8721DDA7F600B2D2FB /* PDFViewVC.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -384,8 +433,14 @@
 			isa = PBXGroup;
 			children = (
 				BE9C032321DBF13000251EDE /* Quran in English.epub */,
-				BE07E56621DAF7D900EEB0F2 /* Hill Think and Grow Rich.epub */,
-				BE92FD4A21D9A5A900BBDE73 /* The Silver Chair.epub */,
+				BEAE4C8321DDA0F200B2D2FB /* The Key to Understanding Islam.pdf */,
+				BEAE4C8A21DDAF8600B2D2FB /* How He Treated Them.pdf */,
+				BEAE4C8D21DDAF8800B2D2FB /* Jesus Man Messenger Messiah.pdf */,
+				BEAE4C8B21DDAF8600B2D2FB /* Why Islam? - Proofs of Modern Science.pdf */,
+				BEAE4C8C21DDAF8700B2D2FB /* Women in Islam.pdf */,
+				BEAE4CA321DDB22900B2D2FB /* The True Muslim.pdf */,
+				BEAE4CA521DDB23000B2D2FB /* Sharia law in Islam, Christianity and Judaism.pdf */,
+				BEAE4CA721DDB30900B2D2FB /* Human Rights in Islam.pdf */,
 			);
 			path = "Sample eBooks";
 			sourceTree = "<group>";
@@ -398,17 +453,35 @@
 			path = Deignable;
 			sourceTree = "<group>";
 		};
-		BEF8715721D8799F0035AEB5 /* Images */ = {
+		BEECF3BF21E2883200A86A36 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				BE4E352C21DA067E009A55EA /* Islam Explored.png */,
-				BEF8715E21D879CA0035AEB5 /* 0.jpg */,
-				BEF8715C21D879C40035AEB5 /* 1.jpg */,
-				BEF8715921D879BB0035AEB5 /* 2.jpg */,
-				BEF8715821D879BB0035AEB5 /* 3.jpg */,
-				BE07E56A21DB1D5C00EEB0F2 /* 4.png */,
+				BEECF3D021E2891F00A86A36 /* 0.jpg */,
+				BEECF3D421E2892200A86A36 /* 1.jpg */,
+				BEECF3D921E2892500A86A36 /* 2.jpg */,
+				BEECF3D221E2892000A86A36 /* 3.jpg */,
+				BEECF3D821E2892400A86A36 /* 4.jpg */,
+				BEECF3DA21E2892600A86A36 /* 5.jpg */,
+				BEECF3D721E2892400A86A36 /* 6.jpg */,
+				BEECF3D121E2892000A86A36 /* 7.jpg */,
+				BEECF3D521E2892200A86A36 /* 8.jpg */,
+				BEECF3DB21E2892600A86A36 /* 9.jpg */,
+				BEECF3D621E2892300A86A36 /* 10.jpg */,
+				BEECF3E921E2894900A86A36 /* 11.jpg */,
+				BEECF3EA21E2894A00A86A36 /* 12.jpg */,
+				BEECF3E821E2894900A86A36 /* 13.jpg */,
+				BEECF3EB21E2894B00A86A36 /* 14.jpg */,
+				BEECF3C521E2886400A86A36 /* 15.jpg */,
+				BEECF3C321E2886300A86A36 /* 16.jpg */,
+				BEECF3C121E2886200A86A36 /* 17.jpg */,
+				BEECF3CC21E288CE00A86A36 /* 18.jpg */,
+				BEECF3CE21E288EA00A86A36 /* 19.jpg */,
+				BEECF3C021E2886200A86A36 /* 20.jpg */,
+				BEECF3C221E2886300A86A36 /* 21.jpg */,
+				BEECF3C421E2886400A86A36 /* 22.jpg */,
 			);
-			path = Images;
+			name = image;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -471,43 +544,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEECF3E121E2892600A86A36 /* 8.jpg in Resources */,
 				BE9C032521DBF6C800251EDE /* Quran in English.epub in Resources */,
-				BE07E56721DAF98E00EEB0F2 /* Hill Think and Grow Rich.epub in Resources */,
-				BEF8715B21D879BC0035AEB5 /* 2.jpg in Resources */,
+				BEECF3EE21E2894B00A86A36 /* 12.jpg in Resources */,
+				BEECF3CA21E2886400A86A36 /* 22.jpg in Resources */,
+				BEECF3E321E2892600A86A36 /* 6.jpg in Resources */,
 				BE71AFA021D74AFD009CEA18 /* OpenSans-Light.ttf in Resources */,
 				BE07E56921DB13F200EEB0F2 /* styleIpad.css in Resources */,
 				BE71AF9321D74AFD009CEA18 /* Adamina-Regular.ttf in Resources */,
+				BEECF3E721E2892600A86A36 /* 9.jpg in Resources */,
 				BE71AF6F21D722A8009CEA18 /* WideStoryViewCell.xib in Resources */,
+				BEECF3DC21E2892600A86A36 /* 0.jpg in Resources */,
+				BEECF3C721E2886400A86A36 /* 17.jpg in Resources */,
+				BEECF3E421E2892600A86A36 /* 4.jpg in Resources */,
 				BE71AFA321D74AFD009CEA18 /* OpenSans-SemiBold.ttf in Resources */,
-				BE4E352D21DA067E009A55EA /* Islam Explored.png in Resources */,
-				BEF8715F21D879CA0035AEB5 /* 0.jpg in Resources */,
 				BE71AF7E21D7258A009CEA18 /* style.css in Resources */,
+				BEAE4C9021DDAF8800B2D2FB /* Why Islam? - Proofs of Modern Science.pdf in Resources */,
+				BEAE4CA621DDB23000B2D2FB /* Sharia law in Islam, Christianity and Judaism.pdf in Resources */,
+				BEAE4C9221DDAF8800B2D2FB /* Jesus Man Messenger Messiah.pdf in Resources */,
+				BEECF3ED21E2894B00A86A36 /* 11.jpg in Resources */,
 				BE71AF9D21D74AFD009CEA18 /* OpenSans-ExtraBold.ttf in Resources */,
 				BE71AF2B21D71C5A009CEA18 /* LaunchScreen.storyboard in Resources */,
+				BEECF3E021E2892600A86A36 /* 1.jpg in Resources */,
+				BEECF3CD21E288CE00A86A36 /* 18.jpg in Resources */,
 				BE71AF9921D74AFD009CEA18 /* AndadaSC-BoldItalic.otf in Resources */,
-				BE92FD4C21D9A5A900BBDE73 /* The Silver Chair.epub in Resources */,
-				BEF8715D21D879C40035AEB5 /* 1.jpg in Resources */,
+				BEECF3E621E2892600A86A36 /* 5.jpg in Resources */,
 				BE71AF9621D74AFD009CEA18 /* Andada-Italic.otf in Resources */,
+				BEECF3EF21E2894B00A86A36 /* 14.jpg in Resources */,
 				BE71AF9E21D74AFD009CEA18 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				BEECF3E521E2892600A86A36 /* 2.jpg in Resources */,
 				BE71AF9F21D74AFD009CEA18 /* OpenSans-Italic.ttf in Resources */,
+				BEECF3E221E2892600A86A36 /* 10.jpg in Resources */,
 				BE71AFA221D74AFD009CEA18 /* OpenSans-Regular.ttf in Resources */,
 				BE71AF2821D71C5A009CEA18 /* Assets.xcassets in Resources */,
 				BE92FD4721D9A4FC00BBDE73 /* BookViewCell.xib in Resources */,
 				BE71AF9B21D74AFD009CEA18 /* AndadaSC-Regular.otf in Resources */,
 				BE71AF9421D74AFD009CEA18 /* Andada-Bold.otf in Resources */,
-				BEF8715A21D879BC0035AEB5 /* 3.jpg in Resources */,
 				BE71AF5F21D720AF009CEA18 /* SuggestedHeaderView.xib in Resources */,
 				BE71AF5B21D720AF009CEA18 /* SearchViewController.xib in Resources */,
+				BEECF3DD21E2892600A86A36 /* 7.jpg in Resources */,
 				BE71AF9721D74AFD009CEA18 /* Andada-Regular.otf in Resources */,
+				BEECF3C921E2886400A86A36 /* 16.jpg in Resources */,
 				BE71AF9521D74AFD009CEA18 /* Andada-BoldItalic.otf in Resources */,
-				BE07E56B21DB1D5C00EEB0F2 /* 4.png in Resources */,
 				BE71AF6B21D722A8009CEA18 /* CompactStoryCollectionViewCell.xib in Resources */,
 				BE71AF9C21D74AFD009CEA18 /* OpenSans-BoldItalic.ttf in Resources */,
+				BEAE4C8F21DDAF8800B2D2FB /* How He Treated Them.pdf in Resources */,
 				BE71AF2621D71C57009CEA18 /* Main.storyboard in Resources */,
+				BEAE4CA821DDB30900B2D2FB /* Human Rights in Islam.pdf in Resources */,
+				BEAE4CA421DDB22900B2D2FB /* The True Muslim.pdf in Resources */,
+				BEECF3C821E2886400A86A36 /* 21.jpg in Resources */,
 				BE71AF6D21D722A8009CEA18 /* SwipableTableViewCell.xib in Resources */,
+				BEECF3CF21E288EA00A86A36 /* 19.jpg in Resources */,
+				BEECF3EC21E2894B00A86A36 /* 13.jpg in Resources */,
+				BEAE4C9121DDAF8800B2D2FB /* Women in Islam.pdf in Resources */,
 				BE71AF5D21D720AF009CEA18 /* SuggestedTableViewCell.xib in Resources */,
+				BEAE4C8421DDA0F200B2D2FB /* The Key to Understanding Islam.pdf in Resources */,
+				BEECF3DE21E2892600A86A36 /* 3.jpg in Resources */,
+				BEECF3C621E2886400A86A36 /* 20.jpg in Resources */,
 				BE71AFA421D74AFD009CEA18 /* OpenSans-SemiBoldItalic.ttf in Resources */,
 				BE71AF9A21D74AFD009CEA18 /* AndadaSC-Italic.otf in Resources */,
+				BEECF3CB21E2886400A86A36 /* 15.jpg in Resources */,
 				BE71AF5721D720AF009CEA18 /* HeaderView.xib in Resources */,
 				BE71AF5921D720AF009CEA18 /* SearchItemViewCell.xib in Resources */,
 				BE71AF9821D74AFD009CEA18 /* AndadaSC-Bold.otf in Resources */,
@@ -597,6 +693,7 @@
 				BE9AEF3221DC4C0200DB555D /* DeisgnableButton.swift in Sources */,
 				BE71AF7D21D7258A009CEA18 /* String+Convenience.swift in Sources */,
 				BE92FD5021D9AFA400BBDE73 /* ExampleFolioReaderContainer.swift in Sources */,
+				BEAE4C8821DDA7F600B2D2FB /* PDFViewVC.swift in Sources */,
 				BE71AF5E21D720AF009CEA18 /* SuggestedHeaderView.swift in Sources */,
 				BE71AF6A21D722A8009CEA18 /* CompactStoryCollectionViewCell.swift in Sources */,
 				BE92FD4621D9A4FC00BBDE73 /* BookViewCell.swift in Sources */,
@@ -763,13 +860,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8G9TEZDPEH;
+				DEVELOPMENT_TEAM = 7VZVU3S9CL;
 				INFOPLIST_FILE = IslamExplored/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = NA.IslamExplored;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IslamExplored.Islam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -782,13 +879,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8G9TEZDPEH;
+				DEVELOPMENT_TEAM = 7VZVU3S9CL;
 				INFOPLIST_FILE = IslamExplored/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = NA.IslamExplored;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IslamExplored.Islam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -9,11 +9,25 @@
 import UIKit
 import FolioReaderKit
 
+
 class BookVC: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
         let folioReader = FolioReader()
+//        var document = PDFDocument(url: Bundle.main.url(forResource: "\(1)", withExtension: "pdf")!)!
+    let PDFBooks = ["The Key to Understanding Islam","Women in Islam","Human Rights in Islam","Jesus Man Messenger Messiah","Why Islam? - Proofs of Modern Science","How He Treated Them","The True Muslim", "Sharia law in Islam, Christianity and Judaism"]
+
+    let PDFExcerpt = [
+            "This book makes the readers aware about Islam, the Prophet Muhammad, the Islamic rites, Islam’s attitude towards the Prophet Jesus and his mother (peace be upon him).",
+            "This book discusses the special place women have in the religion of Islam and seeks to address some of the many misconceptions and false propaganda published by those who are ignorant of this religion or harbor a malicious intent to purposely misrepresent this religion.",
+            "Human Rights in Islam: A book by Sheikh Jamal Zarabozo – may allah bless him – in which he tackled the issue of Islam and human rights in the shadow of Islam.",
+            "This book explains where and how the Qur’an challenges the traditional Church narrative.In doing so, it presents the reader with a compelling and clear understanding of Jesus and his true message. The book also demonstrates why the Qur’an is the ‘missing link’, that all important ‘bridge’ connecting Judaism and Christianity, uniting all of the Abrahamic faiths.",
+            "Why Islam? – Proofs of Modern Science",
+            "Today individuals find themselves in desperate need of guidance. Over the ages, Allah sent different Prophets to guide humanity and provide answers to the questions confronting man. The most important features of their mission was to explain the Divine laws and exemplify Divine wisdom, and thus, serve as role-models to their nations. This book shows how the Prophet Muhammad (peace be upon him) introduced Islam in all of his cases: father, husband, neighbor, friend, seller, buyer, judge, … etc. Thus he dealt with all kinds of people while showing the Islamic teachings in all cases.",
+            "The true muslim",
+            "Sharia law in Islam, Christianity and Judaism"
+        ]
     
     lazy var refreshControl: UIRefreshControl = {
         let refreshControl = UIRefreshControl()
@@ -25,6 +39,7 @@ class BookVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         tableView.register(UINib(nibName: "BookViewCell", bundle: nil), forCellReuseIdentifier: "BookCell")
         tableView.addSubview(refreshControl)
@@ -117,28 +132,33 @@ class BookVC: UIViewController {
 
 extension BookVC: UITableViewDelegate, UITableViewDataSource{
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
-    }
-    
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         tableView.tableHeaderView?.isHidden = true;
         
         let bookCell = tableView.dequeueReusableCell(withIdentifier: "BookCell", for: indexPath) as! BookViewCell
         bookCell.selectionStyle = .none
+       
+        if indexPath.row == 0 {
         if let epub = Epub(rawValue: indexPath.row) {
-        let bookPath = epub.bookPath
-        let name = epub.name
-        let excerpt = epub.excerpt
+            let bookPath = epub.bookPath
+            let name = epub.name
+            let excerpt = epub.excerpt
             do {
                 let image = try FolioReader.getCoverImage(bookPath!)
                 bookCell.updateCell(nameLbl: name, excerpt: excerpt, imageView: image, screenWidth: screenWidth, screenModel: UIDevice().type)
-              
+                
             } catch {
                 print(error.localizedDescription)
             }
             
+            }
+        } else {
+//            let documentFileURL = Bundle.main.url(forResource: "\(indexPath.row)", withExtension: "pdf")!
+//             document = PDFDocument(url: documentFileURL)!
+            let name = PDFBooks[indexPath.row - 1]
+            let excerpt = PDFExcerpt[indexPath.row - 1]
+            let image = UIImage(named: "\(indexPath.row + 14).jpg")
+            bookCell.updateCell(nameLbl: name, excerpt: excerpt, imageView: image!, screenWidth: screenWidth, screenModel: UIDevice().type)
 
         }
         
@@ -146,23 +166,34 @@ extension BookVC: UITableViewDelegate, UITableViewDataSource{
     }
     
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return PDFBooks.count + 1
+    
+    }
+    
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "showBook", sender: self)
+        if indexPath.row == 0{
+            performSegue(withIdentifier: "showBook", sender: self)
+        }else {
+            performSegue(withIdentifier: "showPDF", sender: self)
+        }
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
-        if let indexPath = tableView.indexPathForSelectedRow {
+        if let indexPath = tableView.indexPathForSelectedRow  {
+
+            
+            if segue.identifier == "showBook"{
 
             guard let epub = Epub(rawValue: indexPath.row) else {
                 return
             }
             self.open(epub: epub)
-            
-//            if let indexPath = tableView.indexPathForSelectedRow {
-//                let containerVC = segue.destination as? ExampleFolioReaderContainer
-//                containerVC?.epub =
-//        }
-
+            } else {
+                let PDFViewVC = segue.destination as? PDFViewVC
+                PDFViewVC?.indexPath = indexPath.row
+            }
     }
     
     }

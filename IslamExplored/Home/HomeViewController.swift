@@ -208,11 +208,19 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
         let wideCell = tableView.dequeueReusableCell(withIdentifier: "wideCell", for: indexPath) as! WideStoryViewCell
         wideCell.selectionStyle = .none
         wideCell.setDelegate(delegate: self)
-        let post = postsFqa[indexPath.row]
-        let title = String(htmlEncodedString:post.title)
-        let contentLbl = String(htmlEncodedString:post.excerpt)
-        wideCell.updateCell(title: title, contentLbl: contentLbl, screenWidth: screenWidth, screenModel: UIDevice().type )
-        print(screenWidth)
+        
+        
+            let post = self.postsFqa[indexPath.row]
+   //     DispatchQueue.main.async {
+            let title = String(htmlEncodedString:post.title)
+            let contentLbl = String(htmlEncodedString:post.excerpt)
+            wideCell.updateCell(title: title, contentLbl: contentLbl, screenWidth: self.screenWidth, screenModel: UIDevice().type )
+        //}
+//        let post = postsFqa[indexPath.row]
+//        let title = String(htmlEncodedString:post.title)
+//        let contentLbl = String(htmlEncodedString:post.excerpt)
+//        wideCell.updateCell(title: title, contentLbl: contentLbl, screenWidth: screenWidth, screenModel: UIDevice().type )
+//        print(screenWidth)
         
         let swipeCell = tableView.dequeueReusableCell(withIdentifier: "swipeCell", for: indexPath) as! SwipableTableViewCell
         swipeCell.selectionStyle = .none
