@@ -22,22 +22,9 @@ class PDFViewVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-        
-//        let remotePDFDocumentURLPath = "https://www.islamland.com/uploads/books/the_key_to_understanding_islam-eng.pdf"
-//        let remotePDFDocumentURL = URL(string: remotePDFDocumentURLPath)!
-//        let document = PDFDocument(url: remotePDFDocumentURL)!
-//        
-//        let readerController = PDFViewController.createNew(with: document)
-//        navigationController?.pushViewController(readerController, animated: true)
-        
-        
-        print("I am here at PDFVC")
         if let path = Bundle.main.path(forResource: "\(PDFBooks[indexPath - 1])", ofType: "pdf") {
-//        let url = URL(fileURLWithPath: path)
-            guard let url = URL(string:"https://www.islamland.com/uploads/books/the_key_to_understanding_islam-eng.pdf") else { return }
-     //   let url = URL(fileURLWithPath: )
-//        Downloader.load(url, to: <#URL#>)
+        let url = URL(fileURLWithPath: path)
+
             DispatchQueue.main.async {
                 if let PDFDoc = PDFDocument(url:url) {
                     self.PDFView.autoScales = true
@@ -50,6 +37,19 @@ class PDFViewVC: UIViewController {
         }
     
     }
+    
+    //     guard let url = URL(string:"https://www.islamland.com/uploads/books/the_key_to_understanding_islam-eng.pdf") else { return }
+    //   let url = URL(fileURLWithPath: )
+    //        Downloader.load(url, to: URL)
+    
+    
+    //        let remotePDFDocumentURLPath = "https://www.islamland.com/uploads/books/the_key_to_understanding_islam-eng.pdf"
+    //        let remotePDFDocumentURL = URL(string: remotePDFDocumentURLPath)!
+    //        let document = PDFDocument(url: remotePDFDocumentURL)!
+    //
+    //        let readerController = PDFViewController.createNew(with: document)
+    //        navigationController?.pushViewController(readerController, animated: true)
+    
 //
 //    override func viewDidDisappear(_ animated: Bool) {
 //        super.viewDidDisappear(true)

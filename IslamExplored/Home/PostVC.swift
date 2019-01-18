@@ -163,7 +163,7 @@ class PostVC: UIViewController, WKNavigationDelegate {
     
     /// Get the Link from wordpress ///
     @IBAction func shareBtnWasPressed(_ sender: Any) {
-        let activityVC = UIActivityViewController(activityItems:[ postTitle,"\n\(link)"], applicationActivities: nil)
+        let activityVC = UIActivityViewController(activityItems:["Check out this post: \(postTitle)","\n\(link)"], applicationActivities: nil)
         activityVC.popoverPresentationController?.sourceView = self.view
         self.present(activityVC,animated: true, completion: nil)
     }

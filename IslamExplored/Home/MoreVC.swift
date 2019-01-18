@@ -22,7 +22,7 @@ class MoreVC: UITableViewController, MFMailComposeViewControllerDelegate {
     
     
     @IBAction func ShareBtn(_ sender: Any) {
-        let activityVC = UIActivityViewController(activityItems:[ "Islam Explored App ","\n\(link)"], applicationActivities: nil)
+        let activityVC = UIActivityViewController(activityItems:[ "Islam Explored provides a brief illustrated guide for all people who'd like to understand Islam, Muslims, and the Quran. Download Islam Explored App","\n\("https://itunes.apple.com/us/app/islam-explored/id1448294064?ls=1&mt=8")"], applicationActivities: nil)
         activityVC.popoverPresentationController?.sourceView = self.view
         self.present(activityVC,animated: true, completion: nil)
     }
