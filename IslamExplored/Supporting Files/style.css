@@ -26,7 +26,7 @@
     font-size: 30px;
     line-height: 36px;
     background: #fff !important;
-    color: #434343;
+    color: #000000;
     }
 
     h2 ,h3 ,h4 {
@@ -35,7 +35,7 @@
     line-height: 28px;
     margin-top: 25px;
     background: #fff !important;
-    color: #434343;
+    color: #000000;
     }
 
     body {
@@ -43,14 +43,14 @@
         font-size: 18px;
         line-height: 1.6;
         background: #fff !important;
-        color: #7a7a7a;
+        color: #000000;
     }
     body p {
     font-family: "Andada";
     font-size: 16px;
     line-height: 1.6;
     background: #fff !important;
-    color: #7a7a7a;
+    color: #000000;
     }
 
     blockquote {
@@ -65,7 +65,7 @@
 blockquote p {
     font-family: "Andada";
     font-size: 16px;
-    color: #7a7a7a;
+    color: #000000;
 }
     h1, h2, h3, h4, h5, h6 {
         page-break-after:avoid;
@@ -130,7 +130,7 @@ blockquote p {
         font-family: "Andada";
         font-size: 16px;
         background: #fff !important;
-        color: #7a7a7a;
+        color: #000000;
         list-style: square; margin-left: 18pt;
         margin-bottom: 20pt;
     }
@@ -140,7 +140,7 @@ blockquote p {
         font-family: "Andada";
          font-size: 16px;
         background: #fff !important;
-        color: #7a7a7a;
+        color: #000000;
         line-height: 1.6em;
     }
 

@@ -157,7 +157,7 @@ extension BookVC: UITableViewDelegate, UITableViewDataSource{
 //             document = PDFDocument(url: documentFileURL)!
             let name = PDFBooks[indexPath.row - 1]
             let excerpt = PDFExcerpt[indexPath.row - 1]
-            let image = UIImage(named: "\(indexPath.row + 14).jpg")
+            let image = UIImage(named: "\(indexPath.row + 21).jpg")
             bookCell.updateCell(nameLbl: name, excerpt: excerpt, imageView: image!, screenWidth: screenWidth, screenModel: UIDevice().type)
 
         }

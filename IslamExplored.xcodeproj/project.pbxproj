@@ -10,6 +10,13 @@
 		580DC00B67E4FC9F67E94E27 /* Pods_IslamExplored.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A2C5AF68946AEE624197F6 /* Pods_IslamExplored.framework */; };
 		BE03F1C021D965CD00B8648A /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03F1BF21D965CD00B8648A /* SearchVC.swift */; };
 		BE07E56921DB13F200EEB0F2 /* styleIpad.css in Resources */ = {isa = PBXBuildFile; fileRef = BE07E56821DB13F200EEB0F2 /* styleIpad.css */; };
+		BE1A8484221BE4850023D6F1 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE1A8483221BE4850023D6F1 /* 7.jpg */; };
+		BE1A8486221BE49B0023D6F1 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE1A8485221BE49B0023D6F1 /* 9.jpg */; };
+		BE1A8488221BE4AC0023D6F1 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE1A8487221BE4AC0023D6F1 /* 10.jpg */; };
+		BE1A848A221BE4BA0023D6F1 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE1A8489221BE4BA0023D6F1 /* 12.jpg */; };
+		BE1A848C221BE4C40023D6F1 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE1A848B221BE4C40023D6F1 /* 13.jpg */; };
+		BE1A848E221BE4D40023D6F1 /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE1A848D221BE4D30023D6F1 /* 15.jpg */; };
+		BE1A8490221BE4E00023D6F1 /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE1A848F221BE4E00023D6F1 /* 17.jpg */; };
 		BE71AF2121D71C57009CEA18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE71AF2021D71C57009CEA18 /* AppDelegate.swift */; };
 		BE71AF2621D71C57009CEA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE71AF2421D71C57009CEA18 /* Main.storyboard */; };
 		BE71AF2821D71C5A009CEA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE71AF2721D71C5A009CEA18 /* Assets.xcassets */; };
@@ -74,29 +81,29 @@
 		BEAE4CA421DDB22900B2D2FB /* The True Muslim.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEAE4CA321DDB22900B2D2FB /* The True Muslim.pdf */; };
 		BEAE4CA621DDB23000B2D2FB /* Sharia law in Islam, Christianity and Judaism.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEAE4CA521DDB23000B2D2FB /* Sharia law in Islam, Christianity and Judaism.pdf */; };
 		BEAE4CA821DDB30900B2D2FB /* Human Rights in Islam.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEAE4CA721DDB30900B2D2FB /* Human Rights in Islam.pdf */; };
-		BEECF3C621E2886400A86A36 /* 20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C021E2886200A86A36 /* 20.jpg */; };
-		BEECF3C721E2886400A86A36 /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C121E2886200A86A36 /* 17.jpg */; };
-		BEECF3C821E2886400A86A36 /* 21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C221E2886300A86A36 /* 21.jpg */; };
-		BEECF3C921E2886400A86A36 /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C321E2886300A86A36 /* 16.jpg */; };
-		BEECF3CA21E2886400A86A36 /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C421E2886400A86A36 /* 22.jpg */; };
-		BEECF3CB21E2886400A86A36 /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C521E2886400A86A36 /* 15.jpg */; };
-		BEECF3CD21E288CE00A86A36 /* 18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3CC21E288CE00A86A36 /* 18.jpg */; };
-		BEECF3CF21E288EA00A86A36 /* 19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3CE21E288EA00A86A36 /* 19.jpg */; };
+		BEECF3C621E2886400A86A36 /* 27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C021E2886200A86A36 /* 27.jpg */; };
+		BEECF3C721E2886400A86A36 /* 24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C121E2886200A86A36 /* 24.jpg */; };
+		BEECF3C821E2886400A86A36 /* 28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C221E2886300A86A36 /* 28.jpg */; };
+		BEECF3C921E2886400A86A36 /* 23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C321E2886300A86A36 /* 23.jpg */; };
+		BEECF3CA21E2886400A86A36 /* 29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C421E2886400A86A36 /* 29.jpg */; };
+		BEECF3CB21E2886400A86A36 /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3C521E2886400A86A36 /* 22.jpg */; };
+		BEECF3CD21E288CE00A86A36 /* 25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3CC21E288CE00A86A36 /* 25.jpg */; };
+		BEECF3CF21E288EA00A86A36 /* 26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3CE21E288EA00A86A36 /* 26.jpg */; };
 		BEECF3DC21E2892600A86A36 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D021E2891F00A86A36 /* 0.jpg */; };
-		BEECF3DD21E2892600A86A36 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D121E2892000A86A36 /* 7.jpg */; };
+		BEECF3DD21E2892600A86A36 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D121E2892000A86A36 /* 8.jpg */; };
 		BEECF3DE21E2892600A86A36 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D221E2892000A86A36 /* 3.jpg */; };
 		BEECF3E021E2892600A86A36 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D421E2892200A86A36 /* 1.jpg */; };
-		BEECF3E121E2892600A86A36 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D521E2892200A86A36 /* 8.jpg */; };
-		BEECF3E221E2892600A86A36 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D621E2892300A86A36 /* 10.jpg */; };
+		BEECF3E121E2892600A86A36 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D521E2892200A86A36 /* 11.jpg */; };
+		BEECF3E221E2892600A86A36 /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D621E2892300A86A36 /* 16.jpg */; };
 		BEECF3E321E2892600A86A36 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D721E2892400A86A36 /* 6.jpg */; };
 		BEECF3E421E2892600A86A36 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D821E2892400A86A36 /* 4.jpg */; };
 		BEECF3E521E2892600A86A36 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3D921E2892500A86A36 /* 2.jpg */; };
 		BEECF3E621E2892600A86A36 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3DA21E2892600A86A36 /* 5.jpg */; };
-		BEECF3E721E2892600A86A36 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3DB21E2892600A86A36 /* 9.jpg */; };
-		BEECF3EC21E2894B00A86A36 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3E821E2894900A86A36 /* 13.jpg */; };
-		BEECF3ED21E2894B00A86A36 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3E921E2894900A86A36 /* 11.jpg */; };
-		BEECF3EE21E2894B00A86A36 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3EA21E2894A00A86A36 /* 12.jpg */; };
-		BEECF3EF21E2894B00A86A36 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3EB21E2894B00A86A36 /* 14.jpg */; };
+		BEECF3E721E2892600A86A36 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3DB21E2892600A86A36 /* 14.jpg */; };
+		BEECF3EC21E2894B00A86A36 /* 20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3E821E2894900A86A36 /* 20.jpg */; };
+		BEECF3ED21E2894B00A86A36 /* 18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3E921E2894900A86A36 /* 18.jpg */; };
+		BEECF3EE21E2894B00A86A36 /* 19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3EA21E2894A00A86A36 /* 19.jpg */; };
+		BEECF3EF21E2894B00A86A36 /* 21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEECF3EB21E2894B00A86A36 /* 21.jpg */; };
 		BEF8716121D88C100035AEB5 /* BookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF8716021D88C100035AEB5 /* BookmarkViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +112,13 @@
 		B067A98D89E5DE2D6D144D44 /* Pods-IslamExplored.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslamExplored.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IslamExplored/Pods-IslamExplored.debug.xcconfig"; sourceTree = "<group>"; };
 		BE03F1BF21D965CD00B8648A /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		BE07E56821DB13F200EEB0F2 /* styleIpad.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styleIpad.css; sourceTree = "<group>"; };
+		BE1A8483221BE4850023D6F1 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		BE1A8485221BE49B0023D6F1 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		BE1A8487221BE4AC0023D6F1 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		BE1A8489221BE4BA0023D6F1 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		BE1A848B221BE4C40023D6F1 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		BE1A848D221BE4D30023D6F1 /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		BE1A848F221BE4E00023D6F1 /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = "<group>"; };
 		BE71AF1D21D71C57009CEA18 /* IslamExplored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslamExplored.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE71AF2021D71C57009CEA18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE71AF2521D71C57009CEA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -173,29 +187,29 @@
 		BEAE4CA321DDB22900B2D2FB /* The True Muslim.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The True Muslim.pdf"; sourceTree = "<group>"; };
 		BEAE4CA521DDB23000B2D2FB /* Sharia law in Islam, Christianity and Judaism.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Sharia law in Islam, Christianity and Judaism.pdf"; sourceTree = "<group>"; };
 		BEAE4CA721DDB30900B2D2FB /* Human Rights in Islam.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Human Rights in Islam.pdf"; sourceTree = "<group>"; };
-		BEECF3C021E2886200A86A36 /* 20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20.jpg; sourceTree = "<group>"; };
-		BEECF3C121E2886200A86A36 /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = "<group>"; };
-		BEECF3C221E2886300A86A36 /* 21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21.jpg; sourceTree = "<group>"; };
-		BEECF3C321E2886300A86A36 /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
-		BEECF3C421E2886400A86A36 /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
-		BEECF3C521E2886400A86A36 /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
-		BEECF3CC21E288CE00A86A36 /* 18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.jpg; sourceTree = "<group>"; };
-		BEECF3CE21E288EA00A86A36 /* 19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.jpg; sourceTree = "<group>"; };
+		BEECF3C021E2886200A86A36 /* 27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 27.jpg; sourceTree = "<group>"; };
+		BEECF3C121E2886200A86A36 /* 24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 24.jpg; sourceTree = "<group>"; };
+		BEECF3C221E2886300A86A36 /* 28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28.jpg; sourceTree = "<group>"; };
+		BEECF3C321E2886300A86A36 /* 23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23.jpg; sourceTree = "<group>"; };
+		BEECF3C421E2886400A86A36 /* 29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29.jpg; sourceTree = "<group>"; };
+		BEECF3C521E2886400A86A36 /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		BEECF3CC21E288CE00A86A36 /* 25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 25.jpg; sourceTree = "<group>"; };
+		BEECF3CE21E288EA00A86A36 /* 26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 26.jpg; sourceTree = "<group>"; };
 		BEECF3D021E2891F00A86A36 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
-		BEECF3D121E2892000A86A36 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		BEECF3D121E2892000A86A36 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 		BEECF3D221E2892000A86A36 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		BEECF3D421E2892200A86A36 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		BEECF3D521E2892200A86A36 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
-		BEECF3D621E2892300A86A36 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		BEECF3D521E2892200A86A36 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		BEECF3D621E2892300A86A36 /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
 		BEECF3D721E2892400A86A36 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
 		BEECF3D821E2892400A86A36 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		BEECF3D921E2892500A86A36 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		BEECF3DA21E2892600A86A36 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
-		BEECF3DB21E2892600A86A36 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
-		BEECF3E821E2894900A86A36 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
-		BEECF3E921E2894900A86A36 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
-		BEECF3EA21E2894A00A86A36 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
-		BEECF3EB21E2894B00A86A36 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		BEECF3DB21E2892600A86A36 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		BEECF3E821E2894900A86A36 /* 20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20.jpg; sourceTree = "<group>"; };
+		BEECF3E921E2894900A86A36 /* 18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.jpg; sourceTree = "<group>"; };
+		BEECF3EA21E2894A00A86A36 /* 19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.jpg; sourceTree = "<group>"; };
+		BEECF3EB21E2894B00A86A36 /* 21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21.jpg; sourceTree = "<group>"; };
 		BEF8716021D88C100035AEB5 /* BookmarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkViewController.swift; sourceTree = "<group>"; };
 		C1A2C5AF68946AEE624197F6 /* Pods_IslamExplored.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IslamExplored.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -463,22 +477,29 @@
 				BEECF3D821E2892400A86A36 /* 4.jpg */,
 				BEECF3DA21E2892600A86A36 /* 5.jpg */,
 				BEECF3D721E2892400A86A36 /* 6.jpg */,
-				BEECF3D121E2892000A86A36 /* 7.jpg */,
-				BEECF3D521E2892200A86A36 /* 8.jpg */,
-				BEECF3DB21E2892600A86A36 /* 9.jpg */,
-				BEECF3D621E2892300A86A36 /* 10.jpg */,
-				BEECF3E921E2894900A86A36 /* 11.jpg */,
-				BEECF3EA21E2894A00A86A36 /* 12.jpg */,
-				BEECF3E821E2894900A86A36 /* 13.jpg */,
-				BEECF3EB21E2894B00A86A36 /* 14.jpg */,
-				BEECF3C521E2886400A86A36 /* 15.jpg */,
-				BEECF3C321E2886300A86A36 /* 16.jpg */,
-				BEECF3C121E2886200A86A36 /* 17.jpg */,
-				BEECF3CC21E288CE00A86A36 /* 18.jpg */,
-				BEECF3CE21E288EA00A86A36 /* 19.jpg */,
-				BEECF3C021E2886200A86A36 /* 20.jpg */,
-				BEECF3C221E2886300A86A36 /* 21.jpg */,
-				BEECF3C421E2886400A86A36 /* 22.jpg */,
+				BE1A8483221BE4850023D6F1 /* 7.jpg */,
+				BEECF3D121E2892000A86A36 /* 8.jpg */,
+				BE1A8485221BE49B0023D6F1 /* 9.jpg */,
+				BE1A8487221BE4AC0023D6F1 /* 10.jpg */,
+				BEECF3D521E2892200A86A36 /* 11.jpg */,
+				BE1A8489221BE4BA0023D6F1 /* 12.jpg */,
+				BE1A848B221BE4C40023D6F1 /* 13.jpg */,
+				BEECF3DB21E2892600A86A36 /* 14.jpg */,
+				BE1A848D221BE4D30023D6F1 /* 15.jpg */,
+				BEECF3D621E2892300A86A36 /* 16.jpg */,
+				BE1A848F221BE4E00023D6F1 /* 17.jpg */,
+				BEECF3E921E2894900A86A36 /* 18.jpg */,
+				BEECF3EA21E2894A00A86A36 /* 19.jpg */,
+				BEECF3E821E2894900A86A36 /* 20.jpg */,
+				BEECF3EB21E2894B00A86A36 /* 21.jpg */,
+				BEECF3C521E2886400A86A36 /* 22.jpg */,
+				BEECF3C321E2886300A86A36 /* 23.jpg */,
+				BEECF3C121E2886200A86A36 /* 24.jpg */,
+				BEECF3CC21E288CE00A86A36 /* 25.jpg */,
+				BEECF3CE21E288EA00A86A36 /* 26.jpg */,
+				BEECF3C021E2886200A86A36 /* 27.jpg */,
+				BEECF3C221E2886300A86A36 /* 28.jpg */,
+				BEECF3C421E2886400A86A36 /* 29.jpg */,
 			);
 			name = image;
 			path = "New Group";
@@ -544,66 +565,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEECF3E121E2892600A86A36 /* 8.jpg in Resources */,
+				BEECF3E121E2892600A86A36 /* 11.jpg in Resources */,
 				BE9C032521DBF6C800251EDE /* Quran in English.epub in Resources */,
-				BEECF3EE21E2894B00A86A36 /* 12.jpg in Resources */,
-				BEECF3CA21E2886400A86A36 /* 22.jpg in Resources */,
+				BEECF3EE21E2894B00A86A36 /* 19.jpg in Resources */,
+				BEECF3CA21E2886400A86A36 /* 29.jpg in Resources */,
 				BEECF3E321E2892600A86A36 /* 6.jpg in Resources */,
 				BE71AFA021D74AFD009CEA18 /* OpenSans-Light.ttf in Resources */,
 				BE07E56921DB13F200EEB0F2 /* styleIpad.css in Resources */,
 				BE71AF9321D74AFD009CEA18 /* Adamina-Regular.ttf in Resources */,
-				BEECF3E721E2892600A86A36 /* 9.jpg in Resources */,
+				BEECF3E721E2892600A86A36 /* 14.jpg in Resources */,
 				BE71AF6F21D722A8009CEA18 /* WideStoryViewCell.xib in Resources */,
+				BE1A848A221BE4BA0023D6F1 /* 12.jpg in Resources */,
 				BEECF3DC21E2892600A86A36 /* 0.jpg in Resources */,
-				BEECF3C721E2886400A86A36 /* 17.jpg in Resources */,
+				BEECF3C721E2886400A86A36 /* 24.jpg in Resources */,
+				BE1A8486221BE49B0023D6F1 /* 9.jpg in Resources */,
 				BEECF3E421E2892600A86A36 /* 4.jpg in Resources */,
 				BE71AFA321D74AFD009CEA18 /* OpenSans-SemiBold.ttf in Resources */,
 				BE71AF7E21D7258A009CEA18 /* style.css in Resources */,
 				BEAE4C9021DDAF8800B2D2FB /* Why Islam? - Proofs of Modern Science.pdf in Resources */,
 				BEAE4CA621DDB23000B2D2FB /* Sharia law in Islam, Christianity and Judaism.pdf in Resources */,
 				BEAE4C9221DDAF8800B2D2FB /* Jesus Man Messenger Messiah.pdf in Resources */,
-				BEECF3ED21E2894B00A86A36 /* 11.jpg in Resources */,
+				BEECF3ED21E2894B00A86A36 /* 18.jpg in Resources */,
 				BE71AF9D21D74AFD009CEA18 /* OpenSans-ExtraBold.ttf in Resources */,
+				BE1A848E221BE4D40023D6F1 /* 15.jpg in Resources */,
 				BE71AF2B21D71C5A009CEA18 /* LaunchScreen.storyboard in Resources */,
 				BEECF3E021E2892600A86A36 /* 1.jpg in Resources */,
-				BEECF3CD21E288CE00A86A36 /* 18.jpg in Resources */,
+				BEECF3CD21E288CE00A86A36 /* 25.jpg in Resources */,
 				BE71AF9921D74AFD009CEA18 /* AndadaSC-BoldItalic.otf in Resources */,
 				BEECF3E621E2892600A86A36 /* 5.jpg in Resources */,
 				BE71AF9621D74AFD009CEA18 /* Andada-Italic.otf in Resources */,
-				BEECF3EF21E2894B00A86A36 /* 14.jpg in Resources */,
+				BEECF3EF21E2894B00A86A36 /* 21.jpg in Resources */,
 				BE71AF9E21D74AFD009CEA18 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				BEECF3E521E2892600A86A36 /* 2.jpg in Resources */,
 				BE71AF9F21D74AFD009CEA18 /* OpenSans-Italic.ttf in Resources */,
-				BEECF3E221E2892600A86A36 /* 10.jpg in Resources */,
+				BEECF3E221E2892600A86A36 /* 16.jpg in Resources */,
 				BE71AFA221D74AFD009CEA18 /* OpenSans-Regular.ttf in Resources */,
+				BE1A8490221BE4E00023D6F1 /* 17.jpg in Resources */,
 				BE71AF2821D71C5A009CEA18 /* Assets.xcassets in Resources */,
 				BE92FD4721D9A4FC00BBDE73 /* BookViewCell.xib in Resources */,
 				BE71AF9B21D74AFD009CEA18 /* AndadaSC-Regular.otf in Resources */,
+				BE1A8488221BE4AC0023D6F1 /* 10.jpg in Resources */,
 				BE71AF9421D74AFD009CEA18 /* Andada-Bold.otf in Resources */,
 				BE71AF5F21D720AF009CEA18 /* SuggestedHeaderView.xib in Resources */,
 				BE71AF5B21D720AF009CEA18 /* SearchViewController.xib in Resources */,
-				BEECF3DD21E2892600A86A36 /* 7.jpg in Resources */,
+				BEECF3DD21E2892600A86A36 /* 8.jpg in Resources */,
 				BE71AF9721D74AFD009CEA18 /* Andada-Regular.otf in Resources */,
-				BEECF3C921E2886400A86A36 /* 16.jpg in Resources */,
+				BEECF3C921E2886400A86A36 /* 23.jpg in Resources */,
 				BE71AF9521D74AFD009CEA18 /* Andada-BoldItalic.otf in Resources */,
 				BE71AF6B21D722A8009CEA18 /* CompactStoryCollectionViewCell.xib in Resources */,
 				BE71AF9C21D74AFD009CEA18 /* OpenSans-BoldItalic.ttf in Resources */,
+				BE1A848C221BE4C40023D6F1 /* 13.jpg in Resources */,
 				BEAE4C8F21DDAF8800B2D2FB /* How He Treated Them.pdf in Resources */,
 				BE71AF2621D71C57009CEA18 /* Main.storyboard in Resources */,
 				BEAE4CA821DDB30900B2D2FB /* Human Rights in Islam.pdf in Resources */,
 				BEAE4CA421DDB22900B2D2FB /* The True Muslim.pdf in Resources */,
-				BEECF3C821E2886400A86A36 /* 21.jpg in Resources */,
+				BEECF3C821E2886400A86A36 /* 28.jpg in Resources */,
 				BE71AF6D21D722A8009CEA18 /* SwipableTableViewCell.xib in Resources */,
-				BEECF3CF21E288EA00A86A36 /* 19.jpg in Resources */,
-				BEECF3EC21E2894B00A86A36 /* 13.jpg in Resources */,
+				BEECF3CF21E288EA00A86A36 /* 26.jpg in Resources */,
+				BEECF3EC21E2894B00A86A36 /* 20.jpg in Resources */,
 				BEAE4C9121DDAF8800B2D2FB /* Women in Islam.pdf in Resources */,
 				BE71AF5D21D720AF009CEA18 /* SuggestedTableViewCell.xib in Resources */,
 				BEAE4C8421DDA0F200B2D2FB /* The Key to Understanding Islam.pdf in Resources */,
 				BEECF3DE21E2892600A86A36 /* 3.jpg in Resources */,
-				BEECF3C621E2886400A86A36 /* 20.jpg in Resources */,
+				BEECF3C621E2886400A86A36 /* 27.jpg in Resources */,
 				BE71AFA421D74AFD009CEA18 /* OpenSans-SemiBoldItalic.ttf in Resources */,
 				BE71AF9A21D74AFD009CEA18 /* AndadaSC-Italic.otf in Resources */,
-				BEECF3CB21E2886400A86A36 /* 15.jpg in Resources */,
+				BE1A8484221BE4850023D6F1 /* 7.jpg in Resources */,
+				BEECF3CB21E2886400A86A36 /* 22.jpg in Resources */,
 				BE71AF5721D720AF009CEA18 /* HeaderView.xib in Resources */,
 				BE71AF5921D720AF009CEA18 /* SearchItemViewCell.xib in Resources */,
 				BE71AF9821D74AFD009CEA18 /* AndadaSC-Bold.otf in Resources */,
